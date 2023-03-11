@@ -309,6 +309,9 @@ def ana_data(A):
         if item['from'] == 'market':
             title += '-市场购买'
 
+        title = title.replace('[','【')
+        title = title.replace(']', '】')
+
         result.append(
             {
                 "title": title,

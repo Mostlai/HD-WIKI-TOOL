@@ -121,9 +121,13 @@ def ana_data(A):
     result = []
     for item in A:
         title = item.get('name', item.get('id'))
-        text = item.get('desc', '')
+        text = '>' + item.get('desc', '')
+        if 'hide' in item:
+            if item['hide'] == True:
+                text += '注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼\n\n'
+
         if 'require' in item:
-            text += '\n\n解锁需求:'
+            text += "\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n"
             require_list = str(item['require'])
             prog_content = str(item['require']).replace('g.','')
             f = require_list.replace('g.','')
@@ -148,9 +152,51 @@ def ana_data(A):
                 if no_tag == 0:
                     kp = re.search(pattern='[\u4E00-\u9FA5A-Za-z0-9_]+', string=c)
                     prog_content = prog_content.replace(kp.group(), '[[' + kp.group() + ']]')
-                    prog_content += '\n\n标签中含有此迭失条目名称的条目有以下:\n\n'
+                    if '\n\n标签中含有此迭失条目名称的条目有以下:\n\n' not in prog_content:
+                        prog_content += '\n\n标签中含有此迭失条目名称的条目有以下:\n\n'
                     prog_content += '<$list filter="[tag[' + kp.group() + ']sort[title]]"/>'+ '\n\n'
             text += prog_content
+            text += '\n\n```\n解锁需求(JSON):' + item['require'] + '\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```' + '\n\n</fieldset>'
+
+        text = text.replace('&&', '与')
+        text = text.replace('||', '或')
+        text = text.replace('!=', '非')
+        text = text.replace('==', '=')
+
+        if 'need' in item:
+            if item['need'] != '':
+                text += '\n\n<fieldset>\n\n解锁需求:\n\n'
+                require_list = str(item['need'])
+                prog_content = str(item['need']).replace('g.', '')
+                f = require_list.replace('g.', '')
+                d = f.split('&&')
+                if '||' in f:
+                    f = d[-1].split('||')
+                    for i in d[:-1]:
+                        f.append(i)
+                else:
+                    f = d
+                for i in f:
+                    no_tag = 0
+                    p = i.replace(' ', '')
+                    op = re.search(pattern='[\u4E00-\u9FA5A-Za-z0-9_]+', string=p)
+                    for i in A:
+                        if i['id'] == op.group():
+                            no_tag = 1
+                            if i.get('name', '') != '':
+                                prog_content = prog_content.replace(i['id'], '[[' + i['name'] + ']]  ')
+                            else:
+                                prog_content = prog_content.replace(i['id'], '[[' + i['id'] + ']]')
+                    if no_tag == 0:
+                        prog_content = prog_content.replace(op.group(), '[[' + op.group() + ']]')
+                        prog_content += '\n\n标签中含有此迭失条目名称的条目有以下:\n\n'
+                        prog_content += '<$list filter="[tag[' + op.group() + ']sort[title]]"/>' + '\n\n'
+                text += prog_content + '</fieldset>\n\n'
+
+            text = text.replace('&&', '与')
+            text = text.replace('||', '或')
+            text = text.replace('!=', '非')
+            text = text.replace('==', '=')
             # require_list = item['require'].split('&&')
             # for req in require_list:
             #     req_list = req.split('||')
@@ -175,7 +221,6 @@ def ana_data(A):
             #                 for i in A:
             #                     if i['id'] == id:
             #                         text += '[[' + i['name'] + ']]==' + r_list[1].strip()
-            text += '\n\n```\n解锁需求(JSON):' + item['require'] + '\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```'
         tags = getags(item['from'])
         if item.get('tags', '') != '':
             if ',' in item["tags"]:
@@ -185,6 +230,7 @@ def ana_data(A):
             else:
                 tags += ' ' + item["tags"]
 
+        text += "\n\n---"
         text += '\n\n此条目具有以下TAG(标签)  '
         if item.get('tags', '') != '':
             if ',' in item["tags"]:
@@ -208,7 +254,7 @@ def ana_data(A):
                     text += '[[' + i["name"] + ']]  '
 
         if item.get('cost', '') != '' and item['from'] != "armors" and item['from'] != "weapons":
-            text += '\n\n该条目具有以下花费\n\n'
+            text += "\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n"
             cost = item['cost']
             rc = ''
             for i in cost:
@@ -218,10 +264,10 @@ def ana_data(A):
                     if i['id'] == content_1.split('.')[0] and i.get('name', '') != '':
                         content_1 = content_1.replace(i['id'], '[[' + i['name'] + ']]')
                 rc += content_1 + ':' + str(cost[content_2]) + '\n\n'
-            text += rc
+            text += rc + '</fieldset>'
 
         if item.get('result', '') != '':
-            text += '\n\n该条目具有以下结果\n\n'
+            text += "\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n"
             r = item['result']
             rc = ''
             for i in r:
@@ -234,9 +280,9 @@ def ana_data(A):
             # for i in A:
             #     if r.find(i['id']) and i.get('name', '') != '':
             #         r = r.replace(i['id'],'[['+i['name']+']]')
-            text += rc
+            text += rc + '</fieldset>'
         if item.get('mod', '') != '':
-            text += '\n\n该条目具有以下修正\n\n'
+            text += "\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n"
             m = item['mod']
             rc = ''
             for i in m:
@@ -246,9 +292,9 @@ def ana_data(A):
                     if i['id'] == content_1.split('.')[0] and i.get('name', '') != '':
                         content_1 = content_1.replace(i['id'], '[[' + i['name'] + ']]')
                 rc += content_1 + ':' + str(m[content_2]) + '\n\n'
-            text += rc
+            text += rc + '</fieldset>'
         if item.get('effect', '') != '':
-            text += '\n\n该条目具有以下影响\n\n'
+            text += "\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下影响\n\n"
             e = item['effect']
             rc = ''
             for i in e:
@@ -258,10 +304,10 @@ def ana_data(A):
                     if i['id'] == content_1.split('.')[0] and i.get('name', '') != '':
                         content_1 = content_1.replace(i['id'], '[[' + i['name'] + ']]')
                 rc += content_1 + ':' + str(e[content_2]) + '\n\n'
-            text += rc
+            text += rc + '</fieldset>'
 
         if item.get('xiulianresult', '') != '':
-            text += '\n\n该条目具有以下结果\n\n'
+            text += "\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n"
             x = item['xiulianresult']
             rc = ''
             for i in x:
@@ -271,9 +317,9 @@ def ana_data(A):
                     if i['id'] == content_1.split('.')[0] and i.get('name', '') != '':
                         content_1 = content_1.replace(i['id'], '[[' + i['name'] + ']]')
                 rc += content_1 + ':' + str(x[content_2]) + '\n\n'
-            text += rc
+            text += rc + '</fieldset>'
 
-        text += '\n\n此条目的MAX（上限）在以下条目中被影响\n\n'
+        text += "\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n"
         for i in A:
             check_con = item['id'] + '.max'
             if i.get('result', '') != '':
@@ -289,7 +335,8 @@ def ana_data(A):
                 if check_con in i['xiulianresult']:
                     text += '[[' + i['name'] + ']]  '
 
-        text += '\n\n此条目的rate（速率）在以下条目中被影响\n\n'
+        text += "\n\n</fieldset>\n\n"
+        text += "<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n"
         for i in A:
             check_con = item['id'] + '.rate'
             if i.get('result', '') != '':
@@ -304,6 +351,7 @@ def ana_data(A):
             if i.get('xiulianresult', '') != '':
                 if check_con in i['xiulianresult']:
                     text += '[[' + i['name'] + ']]  '
+        text += '\n\n</fieldset>'
 
 
         if item['from'] == 'market':
@@ -317,9 +365,9 @@ def ana_data(A):
                 "title": title,
                 "text": text,
                 "tags": tags,
-                "created": "2200010100000000",
+                "created": "1444111100000000",
                 "creator": "Pldada",
-                "modified": "2200010100000000",
+                "modified": "1444111100000000",
                 "modifier": "Pldada"
             }
         )

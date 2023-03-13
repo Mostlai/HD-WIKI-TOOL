@@ -4882,7 +4882,7 @@
 		"name": "负阴蚀烛(立足)",
 		"desc": "昔有双星环之当世，近则名月，远则名幽。北方有天相烛龙蔽大阳火光，世俗不见幽，万万生生不思觉。人已负阴，当见证月幽，思索漫步光河。",
 		"tags": "立足",
-		"require": "g.baoyangsizhen>=9",
+		"require": "g.fuyinsizhu>=9",
 		"max": 2,
 		"cost": {
 			"element_blood": 40,

@@ -511,5 +511,22 @@
 			"ganwu": 100
 		},
 		"max": 1
+	},
+	{
+		"id": "techo_phy_sszdyy",
+		"name": "神识战斗应用",
+		"tags": "物理域",
+		"desc": "解锁神识法术",
+		"require": "g.xl_siwei_jxswei>=1",
+		"research_need_point": 200,
+		"run":{
+			"xuanmuye": 1,
+			"elect": 5,
+			"money": 300,
+			"heli": 30,
+			"chaos": 20,
+			"ganwu": 100
+		},
+		"max": 1
 	}
 ]

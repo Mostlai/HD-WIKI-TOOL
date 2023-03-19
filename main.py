@@ -124,7 +124,12 @@ def ana_data(A):
         text = '>' + item.get('desc', '')
         if 'hide' in item:
             if item['hide'] == True:
-                text += '注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼\n\n'
+                text += "<span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n"
+                for i in A:
+                    if i.get('xiulianresult', '') != '':
+                        if item['id'] in i['xiulianresult']:
+                            text += ' [[' + i['name'] + ']] '
+
 
         if 'require' in item:
             text += "\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n"

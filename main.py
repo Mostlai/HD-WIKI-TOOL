@@ -114,6 +114,10 @@ def getags(t):
         tags = '地块障碍'
     elif t == 'weapons':
         tags = '武器 装备'
+    elif t == 'locales':
+        tags = '探索类副本 副本'
+    elif t == 'dungeons':
+        tags = '战斗类副本 副本'
     return tags
 
 

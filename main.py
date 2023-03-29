@@ -5,6 +5,39 @@ import re
 
 id_name_list = list()
 fileList = os.listdir('./data')
+trueList = [
+'./data/achievement.json',
+'./data/adv_weapon.json',
+'./data/ap_upgrade.json',
+'./data/armors.json',
+'./data/bio.json',
+'./data/classes.json',
+'./data/conquer.json',
+'./data/dungeons.json',
+'./data/element.json',
+'./data/enchants.json',
+'./data/factclass.json',
+'./data/factory.json',
+'./data/factrecipe.json',
+'./data/furniture.json',
+'./data/herbal.json',
+'./data/homes.json',
+'./data/humanr.json',
+'./data/locales.json',
+'./data/market.json',
+'./data/missions.json',
+'./data/obstacles.json',
+'./data/player.json',
+'./data/potions.json',
+'./data/realsoul.json',
+'./data/resources.json',
+'./data/skills.json',
+'./data/tasks.json',
+'./data/techo.json',
+'./data/upgrades.json',
+'./data/weapons.json',
+'./data/weapon_factory.json',
+'./data/xiulian.json']
 stand_format = {
     "created": "2200101140744451",
     "creator": "Pldada",
@@ -17,9 +50,11 @@ stand_format = {
 
 
 def load_json(file_list):
-    for f_name in file_list:
-        src = './data/' + f_name
-        with open(src, "r", encoding="utf-8") as f:
+    # for f_name in file_list:
+    #     src = './data/' + f_name
+    for i in trueList:
+        f_name = i.split('/')[2].split('.')[0]
+        with open(i, "r", encoding="utf-8") as f:
             content = json.load(f)
             for i in content:
                 i['from'] = f_name.split('.json')[0]
@@ -161,7 +196,7 @@ def ana_data(A):
                 if no_tag == 0:
                     kp = re.search(pattern='[\u4E00-\u9FA5A-Za-z0-9_]+', string=c)
                     prog_content = prog_content.replace(kp.group(), '[[' + kp.group() + ']]')
-                    if '\n\n标签中含有此迭失条目名称的条目有以下:\n\n' not in prog_content:
+                    if '\n\n标签中含有此缺失条目名称的条目有以下（如果上面的解锁关系中出现非中文的条目，那么那个条目可能对应的是以下条目）:\n\n' not in prog_content:
                         prog_content += '\n\n标签中含有此迭失条目名称的条目有以下:\n\n'
                     prog_content += '<$list filter="[tag[' + kp.group() + ']sort[title]]"/>'+ '\n\n'
             text += prog_content
@@ -198,7 +233,7 @@ def ana_data(A):
                                 prog_content = prog_content.replace(i['id'], '[[' + i['id'] + ']]')
                     if no_tag == 0:
                         prog_content = prog_content.replace(op.group(), '[[' + op.group() + ']]')
-                        prog_content += '\n\n标签中含有此迭失条目名称的条目有以下:\n\n'
+                        prog_content += '\n\n标签中含有此确实条目名称的条目有以下（如果上面的解锁关系中出现非中文的条目，那么那个条目可能对应的是以下条目）:\n\n'
                         prog_content += '<$list filter="[tag[' + op.group() + ']sort[title]]"/>' + '\n\n'
                 text += prog_content + '</fieldset>\n\n'
 

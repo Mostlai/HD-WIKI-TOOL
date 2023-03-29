@@ -1,0 +1,671 @@
+[
+	{
+		"id": "redd",
+		"name": "红色",
+		"adj": "红色",
+		"weight": 2,
+		"rank": 1,
+		"perk_slot": 2,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"真火抗性%": 3,
+				"锐金抗性%": 2
+			}
+		},
+		"mod": {
+			"self.resist.fire": 3,
+			"self.resist.gold": 2
+		}
+	},
+	{
+		"id": "crimson",
+		"name": "绯红",
+		"adj": "绯红",
+		"weight": 2,
+		"rank": 1,
+		"perk_slot": 2,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"真火抗性%": 5,
+				"锐金抗性%": 4
+			}
+		},
+		"mod": {
+			"self.resist.fire": 5,
+			"self.resist.gold": 4
+		}
+	},
+	{
+		"id": "sellshiled",
+		"name": "法力盾",
+		"adj": "法力盾",
+		"weight": 2,
+		"rank": 1,
+		"perk_slot": 3,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"防御": 1,
+				"护盾上限": 20
+			}
+		},
+		"mod": {
+			"self.defense": 1,
+			"player.shiled_max": 20
+		}
+	},
+	{
+		"id": "paralysis",
+		"name": "麻痹",
+		"adj": "麻痹之",
+		"weight": 4,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"躲闪": -6,
+				"命中": 3
+			}
+		},
+		"mod": {
+			"self.dodge": -6,
+			"self.tohit" :3
+		}
+	},
+	{
+		"id": "atrophy",
+		"name": "萎缩",
+		"adj": "萎缩之",
+		"weight": 5,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"躲闪": -3,
+				"命中": 5
+			}
+		},
+		"mod": {
+			"self.dodge": -3,
+			"self.tohit": -5
+		}
+	},
+	{
+		"id": "dexterity",
+		"name": "熟练",
+		"adj": "熟练之",
+		"weight": 10,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"躲闪": 3
+			}
+		},
+		"mod": {
+			"self.dodge": 3
+		}
+	},
+	{
+		"id": "accuracy",
+		"name": "准确",
+		"adj": "准确之",
+		"weight": 6,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"躲闪": 4,
+				"命中": 2
+			}		},
+		"mod": {
+			"self.dodge": 4,
+			"self.tohit": 2
+		}
+	},
+	{
+		"id": "precision",
+		"name": "精准",
+		"adj": "精准之",
+		"weight": 5,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"躲闪": 6,
+				"命中": 4
+			}
+		},
+		"mod": {
+			"self.dodge": 6,
+			"self.tohit": 4
+		}
+	},
+	{
+		"id": "the_fool",
+		"name": "愚钝",
+		"adj": "愚钝之",
+		"weight": 5,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"法术强度": -10,
+				"物理强度": 3
+			}
+		},
+		"mod": {
+			"self.spell_class": -10,
+			"self.physical_class": 3
+		}
+	},
+	{
+		"id": "dyslexia",
+		"name": "障碍",
+		"adj": "障碍之",
+		"weight": 6,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"法术强度": -6,
+				"物理强度": 5
+			}
+		},
+		"mod": {
+			"self.spell_class": -6,
+			"self.physical_class": 5
+		}
+	},
+	{
+		"id": "the_mind",
+		"name": "智力",
+		"adj": "智力之",
+		"weight": 10,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"法术强度": 4
+			}
+		},
+		"mod": {
+			"self.spell_class": 4
+		}
+	},
+	{
+		"id": "sorcery",
+		"name": "奥术",
+		"adj": "奥术之",
+		"weight": 7,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"法术强度": 6
+			}
+		},
+		"mod": {
+			"self.spell_class": 6
+		}
+	},
+	{
+		"id": "wizardry",
+		"name": "秘法",
+		"adj": "秘法之",
+		"weight": 3,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"法术强度": 7,
+				"法术抵抗": 4
+			}
+		},
+		"mod": {
+			"self.spell_class": 7,
+			"self.spell_save": 4
+		}
+	},
+	{
+		"id": "wizardry_1",
+		"name": "秘法",
+		"adj": "秘法之",
+		"weight": 3,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"命中": 4,
+				"法术抵抗": 7
+			}
+		},
+		"mod": {
+			"self.tohit": 4,
+			"self.spell_save": 7
+		}
+	},
+	{
+		"id": "frailty",
+		"name": "脆弱",
+		"adj": "脆弱之",
+		"weight": 5,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"物理强度": -10,
+				"法术强度": 3
+			}
+		},
+		"mod": {
+			"self.physical_class": -10,
+			"self.spell_class": 3
+		}
+	},
+	{
+		"id": "weakness",
+		"name": "虚弱",
+		"adj": "虚弱之",
+		"weight": 6,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"物理强度": -6,
+				"法术强度": 5
+			}
+		},
+		"mod": {
+			"self.physical_class": -6,
+			"self.spell_class": 5
+		}
+	},
+	{
+		"id": "strength",
+		"name": "力量",
+		"adj": "力量之",
+		"weight": 10,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 2,
+				"物理强度": 4
+			}
+		},
+		"mod": {
+			"self.hp.max": 2,
+			"self.physical_class": 4
+		}
+	},
+	{
+		"id": "might",
+		"name": "威力",
+		"adj": "威力之",
+		"weight": 7,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 2,
+				"物理强度": 6
+			}
+		},
+		"mod": {
+			"self.hp.max": 2,
+			"self.physical_class": 6
+		}
+	},
+	{
+		"id": "giants",
+		"name": "巨人",
+		"adj": "巨人之",
+		"weight": 3,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 4,
+				"物理强度": 7,
+				"物理抵抗": 4
+			}
+		},
+		"mod": {
+			"self.hp.max": 4,
+			"self.physical_class": 7,
+			"self.physical_save": 4
+		}
+	},
+	{
+		"id": "giants_1",
+		"name": "巨人",
+		"adj": "巨人之",
+		"weight": 3,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"体型": 1,
+				"气血上限": 4,
+				"物理抵抗": 7
+			}
+		},
+		"mod": {
+			"self.shape": 1,
+			"self.hp.max": 4,
+			"self.physical_save": 7
+		}
+	},
+	{
+		"id": "giants_2",
+		"name": "巨人",
+		"adj": "巨人之",
+		"weight": 2,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"体型": 1,
+				"物理强度": 4,
+				"物理抵抗": 3
+			}
+		},
+		"mod": {
+			"self.shape": 1,
+			"self.physical_class": 3,
+			"self.physical_save": 3
+		}
+	},
+	{
+		"id": "illness",
+		"name": "疾病",
+		"adj": "疾病之",
+		"weight": 2,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": -6,
+				"混沌上限": 2
+			}
+		},
+		"mod": {
+			"self.hp.max": -6,
+			"self.chaos.max": 2
+		}
+	},
+	{
+		"id": "illness_1",
+		"name": "疾病",
+		"adj": "疾病之",
+		"weight": 2,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": -4,
+				"法术强度": 2
+			}
+		},
+		"mod": {
+			"self.hp.max": -4,
+			"self.spell_save": 2
+		}
+	},
+	{
+		"id": "disease",
+		"name": "传染",
+		"adj": "传染之",
+		"weight": 5,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": -2,
+				"精力上限": 2,
+				"体力上限": 2
+			}
+		},
+		"mod": {
+			"self.hp.max": -4,
+			"self.stamina.max": 2,
+			"self.tili.max": 2
+		}
+	},
+	{
+		"id": "vitality",
+		"name": "活力",
+		"adj": "活力之",
+		"weight": 10,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 4,
+				"精力上限": 1,
+				"体力上限": 1
+			}
+		},
+		"mod": {
+			"self.hp.max": 4,
+			"self.stamina.max": 1,
+			"self.tili.max": 1
+		}
+	},
+	{
+		"id": "zest",
+		"name": "热情",
+		"adj": "热情之",
+		"weight": 6,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 4,
+				"气血回复速度": 1,
+				"体力上限": 1
+			}	
+		},
+		"mod": {
+			"self.hp.max": 4,
+			"self.hp.rate": 1,
+			"self.tili.max": 1
+		}
+	},
+	{
+		"id": "plife",
+		"name": "生命",
+		"adj": "生命之",
+		"weight": 2,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 6,
+				"气血回复速度": 2,
+				"精力上限": 2,
+				"体力上限": 3
+			}
+		},
+		"mod": {
+			"self.hp.max": 6,
+			"self.hp.rate": 2,
+			"self.stamina.max": 2,
+			"self.tili.max": 3
+		}
+	},
+	{
+		"id": "adapt",
+		"name": "顺应",
+		"adj": "顺应之",
+		"weight": 2,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 6,
+				"合理上限": 4,
+				"精力上限": 2,
+				"体力上限": 3
+			}
+		},
+		"mod": {
+			"self.hp.max": 6,
+			"self.heli.max": 2,
+			"self.stamina.max": 2,
+			"self.tili.max": 3
+		}
+	},
+	{
+		"id": "trouble",
+		"name": "困难",
+		"adj": "困难之",
+		"weight": 2,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"物理强度": -4,
+				"法术强度": -4,
+				"物理抵抗": 2
+			}
+		},
+		"mod": {
+			"self.physical_class": -4,
+			"self.spell_class": -4,
+			"self.physical_save": 2
+		}
+	},
+	{
+		"id": "trouble_1",
+		"name": "陷阱",
+		"adj": "陷阱之",
+		"weight": 2,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"物理强度": -4,
+				"法术强度": -4,
+				"法术抵抗": 2
+			}
+		},
+		"mod": {
+			"self.physical_class": -4,
+			"self.spell_class": -4,
+			"self.spell_save": 2
+		}
+	},
+	{
+		"id": "polish",
+		"name": "打磨",
+		"adj": "打磨之",
+		"weight": 10,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"物理强度": 4,
+				"法术强度": 4
+			}
+		},
+		"mod": {
+			"self.physical_class": 4,
+			"self.spell_class": 4
+		}
+	},
+	{
+		"id": "burnishing",
+		"name": "抛光",
+		"adj": "抛光之",
+		"weight": 6,
+		"rank": 1,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"物理强度": 7,
+				"法术强度": 7
+			}	
+		},
+		"mod": {
+			"self.physical_class": 7,
+			"self.spell_class": 7
+		}
+	},
+	{
+		"id": "stout",
+		"name": "坚韧",
+		"adj": "坚韧之",
+		"weight": 2,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"气血上限": 5,
+				"气血回复速度":1,
+				"物理抵抗": 5,
+				"法术抵抗": 5
+			}
+		},
+		"mod": {
+			"self.hp.max": 5,
+			"self.hp.rate": 1,
+			"self.physical_save": 5,
+			"self.spell_save": 5
+		}
+	},
+	{
+		"id": "reject",
+		"name": "抵制",
+		"adj": "抵制之",
+		"weight": 2,
+		"rank": 2,
+		"perk_slot": 1,
+		"perk_for": "weapon,armor",
+		"perk_info":{
+			"info":{
+				"护盾上限": 10,
+				"物理抵抗": 12,
+				"法术抵抗": 12
+			}
+		},
+		"mod": {
+			"player.shiled_max": 10,
+			"self.physical_save": 12,
+			"self.spell_save": 12
+		}
+	}
+]

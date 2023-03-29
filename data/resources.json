@@ -245,7 +245,7 @@
 		"desc": "一块凝结了高能污浊的晶体,由于有着外壳保护,所以不会对自身造成伤害",
 		"group": "结晶",
 		"tags": "",
-		"require": "g.dirty_core>=1",
+		"require": "g.frs_nj>=1",
 		"max": 0
 	},
 	{
@@ -2299,6 +2299,416 @@
 		"max":1
 	},
 	{
+		"id": "tapestries",
+		"name": "tapestries",
+		"desc": "History, lore, and even spells, may be woven in their threads.",
+		"max": 3,
+		"mod": {
+			"research.max": 5
+		}
+	},
+	{
+		"id": "runestones",
+		"name": "rune stones",
+		"group": "runes",
+		"desc": "Runes carved on pieces of stone.",
+		"tags": "t_runes",
+		"max": 10,
+		"mod": {
+			"research.max": "1%",
+			"runelore.rate": 0.1,
+			"runelore.max": 0.03
+		},
+		"flavor": ""
+	},
+	{
+		"id": "firerune",
+		"name": "flame runes",
+		"tags": "t_runes,elementalrunes,primaticrunes",
+		"group": "runes",
+		"desc": "Rune etched with lines of fire",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "waterrune",
+		"name": "water runes",
+		"tags": "t_runes,elementalrunes,primaticrunes",
+		"group": "runes",
+		"desc": "Rune lined in flowing water",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "spiritrune",
+		"name": "spirit runes",
+		"tags": "t_runes,primaticrunes",
+		"group": "runes",
+		"desc": "A Runestone carved in bone; it seems to whisper.",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "airrune",
+		"name": "air runes",
+		"tags": "t_runes,elementalrunes,primaticrunes",
+		"group": "runes",
+		"desc": "Rune etched with solid air",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "earthrune",
+		"name": "earth runes",
+		"tags": "t_runes,elementalrunes,primaticrunes",
+		"group": "runes",
+		"desc": "Rune ingrained with moonstone",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "lightrune",
+		"name": "light runes",
+		"tags": "t_runes,primaticrunes",
+		"group": "runes",
+		"desc": "Rune ingrained with sparkling diamond",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "shadowrune",
+		"name": "shadow runes",
+		"tags": "t_runes,primaticrunes",
+		"group": "runes",
+		"desc": "Black upon black, only a trained eye can distinguish the tiniest difference in the shades of black.",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "manarune",
+		"name": "mana runes",
+		"tags": "t_runes,primaticrunes",
+		"group": "runes",
+		"desc": "The surging energy of this rune can be felt even by the least talented of mages.",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "naturerune",
+		"name": "nature runes",
+		"tags": "t_runes,primaticrunes",
+		"group": "runes",
+		"desc": "Formed out of a complicated tangle of stems and leaves.",
+		"max": 10,
+		"mod": {
+			"research.max": 10
+		},
+		"flavor": ""
+	},
+	{
+		"id": "chaosrune",
+		"name": "chaos runes",
+		"tags": "primordialrunes",
+		"group": "runes",
+		"desc": "Unmistakably a rune, even if it's impossible to tell quite what it looks like.",
+		"max": 10,
+		"mod": {
+			"chaos.max": 1
+		},
+		"flavor": "You can do anything!"
+	},
+	{
+		"id": "timerune",
+		"name": "time runes",
+		"tags": "primordialrunes",
+		"group": "runes",
+		"desc": "Time flows along the grooves of the rune",
+		"mod": {
+			"tempus.rate": 0.001,
+			"bf.rate": 0.01
+		},
+		"max": 3,
+		"flavor": "It's not easy to look at."
+	},
+	{
+		"id": "bodies",
+		"group": "necromancy",
+		"desc": "Bodies for necromantic magic",
+		"max": 1,
+		"mod": {
+			"dissection.rate": 0.01,
+			"embalming.rate": 0.01
+		}
+	},
+	{
+		"id": "bones",
+		"group": "necromancy",
+		"desc": "Human Bones",
+		"max": 10
+	},
+	{
+		"id": "skulls",
+		"group": "necromancy",
+		"desc": "Human Skull",
+		"max": 5
+	},
+	{
+		"id": "bonedust",
+		"name": "bone dust",
+		"group": "necromancy",
+		"desc": "The dust of human bones.",
+		"max": 10
+	},
+	{
+		"id": "souls",
+		"group": "necromancy",
+		"desc": "Imprisoned souls of living creatures.",
+		"max": 1,
+		"mod": {
+			"shadow.rate": 0.001,
+			"spirit.rate": 0.001,
+			"spiritlore.rate": 0.01
+		},
+		"flavor": "Is it wrong?"
+	},
+	{
+		"id": "schematic",
+		"name": "schematics",
+		"desc": "Schematic of Thurn the Artificer",
+		"max": 3,
+		"mod": {
+			"crafting.max": 0.1,
+			"crafting.rate": "5%"
+		}
+	},
+	{
+		"id": "codices",
+		"name": "codices",
+		"group": "books",
+		"desc": "Codex of arcane lore",
+		"max": 10,
+		"mod": {
+			"research.rate": 0.07,
+			"research.max": 5,
+			"lore.rate": 0.1
+		}
+	},
+	{
+		"id": "tomes",
+		"name": "tomes",
+		"group": "books",
+		"desc": "A hefty tome of knowledge.",
+		"max": 5,
+		"mod": {
+			"research.max": 7,
+			"arcana.rate": 0.001,
+			"lore.rate": 0.1,
+			"lore.max": 0.1
+		}
+	},
+	{
+		"id": "gems",
+		"name": "gemstones",
+		"group": "gems",
+		"desc": "Various fine gemstones.",
+		"max": 5
+	},
+	{
+		"id": "managem",
+		"tags": "magicgems,prismaticgems",
+		"group": "gems",
+		"name": "arcane gem",
+		"desc": "Gem infused with arcane energy.",
+		"max": 2
+	},
+	{
+		"id": "firegem",
+		"tags": "magicgems,prismaticgems,elementalgems",
+		"group": "gems",
+		"name": "fire gem",
+		"desc": "Gem imbued with the essence of fire.",
+		"max": 2
+	},
+	{
+		"id": "watergem",
+		"tags": "magicgems,prismaticgems,elementalgems",
+		"group": "gems",
+		"name": "water gem",
+		"desc": "Gem imbued with the essence of water.",
+		"max": 2
+	},
+	{
+		"id": "naturegem",
+		"tags": "magicgems,prismaticgems",
+		"group": "gems",
+		"name": "nature gem",
+		"desc": "Physical essence of life.",
+		"max": 2,
+		"flavor": "The force from the beginning"
+	},
+	{
+		"id": "earthgem",
+		"tags": "magicgems,prismaticgems,elementalgems",
+		"group": "gems",
+		"name": "earth gem",
+		"desc": "Gem imbued with the essence of earth.",
+		"max": 2
+	},
+	{
+		"id": "airgem",
+		"tags": "magicgems,prismaticgems,elementalgems",
+		"group": "gems",
+		"name": "air gem",
+		"desc": "Gem imbued with the essence of air.",
+		"max": 2
+	},
+	{
+		"id": "shadowgem",
+		"tags": "magicgems,prismaticgems",
+		"group": "gems",
+		"name": "shadow gem",
+		"desc": "Gem imbued with the essence of darkness.",
+		"max": 2
+	},
+	{
+		"id": "lightgem",
+		"tags": "magicgems,prismaticgems",
+		"group": "gems",
+		"name": "light gem",
+		"desc": "Gem imbued with the essence of light.",
+		"max": 2
+	},
+	{
+		"id": "scrolls",
+		"name": "卷轴",
+		"desc": "卷轴",
+		"group": "卷轴",
+		"tags": "",
+		"locked":true,
+		"max": 20
+	},
+	{
+		"id": "spiritgem",
+		"tags": "magicgems,prismaticgems",
+		"group": "gems",
+		"name": "spirit gem",
+		"desc": "Gem imbued with raw spirit.",
+		"max": 2
+	},
+	{
+		"id": "bloodgem",
+		"tags": "magicgems",
+		"group": "gems",
+		"name": "blood gem",
+		"desc": "A little magic and a lot of blood",
+		"max": 2,
+		"mod": {
+			"hp.max": 1
+		}
+	},
+	{
+		"id": "timegem",
+		"name": "time gem",
+		"tags": "magicgems,primordialgems",
+		"group": "gems",
+		"desc": "Crafted from gems which do not yet exist.",
+		"mod": {
+			"gems.rate": -0.005,
+			"tempus.rate": 0.01
+		},
+		"max": 3
+	},
+	{
+		"id": "voidgem",
+		"name": "void gem",
+		"tags": "magicgems,primordialgems",
+		"group": "gems",
+		"desc": "The space where a gem once was.",
+		"mod": {
+			"player.resist.void": 1
+		},
+		"max": 3,
+		"flavor": "There was a GEM here.  It's gone now"
+	},
+	{
+		"id": "chaosgem",
+		"name": "chaos gem",
+		"tags": "magicgems,primordialgems",
+		"group": "gems",
+		"desc": "Every time you look at it, it looks different.",
+		"mod": {
+			"chaos.rate": 0.01
+		},
+		"max": 3,
+		"flavor": "Chaos,chaos!"
+	},
+	{
+		"id": "ichor",
+		"tags": "reagent",
+		"desc": "The blood of gods.",
+		"flavor": "The secret courtesy that courses like ichor",
+		"max": 5
+	},
+	{
+		"id": "sindel",
+		"name": "star shard",
+		"desc": "A glowing cinder of the stars.",
+		"flavor": "The pillars broke; the stars fell screaming from the sky",
+		"max": 3,
+		"mod": {
+			"light.rate": 0.1,
+			"player.resist.shadow": 1
+		}
+	},
+	{
+		"id": "dreams",
+		"desc": "We are such stuff as dreams are made of. And our little life is rounded with a sleep.",
+		"max": 3,
+		"mod": {
+			"weary.rate": -0.1,
+			"arcana.rate": "1%"
+		},
+		"flavor": "In your wildest..."
+	},
+	{
+		"id": "herbs",
+		"group": "reagent",
+		"desc": "Special plants for potions and alchemy.",
+		"max": 10
+	},
+	{
+		"id": "potionessence",
+		"name": "potion base",
+		"group": "reagent",
+		"desc": "Basic essence for creating advanced potions.",
+		"flavor": "Smells faintly of milk.",
+		"max": 3
+	},
+	{
 		"id": "space",
 		"name": "地板空间",
 		"desc": "Space Available",
@@ -2309,14 +2719,14 @@
 	{
 		"id": "exchange_code_1",
 		"desc": "2022兑换码",
-		"info": "2022新年快乐,2022个钱币请收下!",
+		"info": "2022新年快乐",
 		"useinfo": "兑换码已经被使用或者达到上限",
 		"hide": true,
 		"name": "code",
 		"val":0,
 		"max": 1,
 		"coderesult":{
-			"money": 2022
+			"money": 22
 		}
 	},
 	{
@@ -2443,6 +2853,33 @@
 		}
 	},
 	{
+		"id": "exchange_code_10",
+		"desc": "?",
+		"info": "?",
+		"needinfo": "你还不能兑换此兑换码",
+		"useinfo": "兑换码已经被使用或者达到上限",
+		"hide": true,
+		"name": "code",
+		"val":0,
+		"max": 1,
+		"coderesult":{
+			"ganwu": 100
+		}
+	},
+	{
+		"id": "exchange_code_11",
+		"desc": "2023兑换码",
+		"info": "2023新年快乐",
+		"useinfo": "兑换码已经被使用或者达到上限",
+		"hide": true,
+		"name": "code",
+		"val":0,
+		"max": 1,
+		"coderesult":{
+			"money": 2023
+		}
+	},
+	{
 		"id": "time",
 		"desc": "",
 		"flavor": "餐玉驻年龄，吞霞反容颜",
@@ -2453,12 +2890,13 @@
 	},
 	{
 		"id": "alculation",
-		"desc": "计算力的多少决定了你的建造水准和施法水平",
+		"desc": "计算力的多少决定了你的建造水准和施法水平。每1000计算力提供0.9法术强度。",
 		"hide": true,
 		"name": "计算力",
 		"val":1,
 		"max": 1,
 		"mod":{
+			"player.spell_class": "0.9:1000",
 			"1级.max": 0.005,
 			"2级.max": 0.004,
 			"3级.max": 0.003,
@@ -2506,11 +2944,14 @@
 	},
 	{
 		"id": "human_power",
-		"desc": "能指挥的劳动力",
+		"desc": "能指挥的劳动力。每1000人力提供0.25物理强度。",
 		"hide": true,
 		"name": "人力",
 		"val":0,
-		"max": 1
+		"max": 1,
+		"mod":{
+			"player.physical_class": "0.25:1000"
+		}
 	},
 	{
 		"id": "command_code",
@@ -2613,46 +3054,58 @@
 	{
 		"id": "tili",
 		"tags": "Bar",
-		"desc": "",
+		"desc": "每1体力提供0.2物理强度。",
 		"flavor": "行动所用",
 		"unit": false,
 		"name": "体力",
 		"val":10,
 		"color": "#29d61d",
 		"locked": false,
-		"max": 10
+		"max": 10,
+		"mod":{
+			"player.physical_class": 0.2
+		}
 	},
 	{
 		"id": "shenshi",
 		"tags": "Bar,prismatic",
-		"desc": "脑中奥秘",
+		"desc": "脑中奥秘。每1神识提供0.7法术抵抗。",
 		"unit": false,
 		"color": "#9400D3",
 		"require": "g.shenshi_1>=4",
 		"name": "神识",
-		"max": 1
+		"max": 1,
+		"mod":{
+			"player.spell_save": 0.7
+		}
 	},
 	{
 		"id": "heli",
 		"tags": "Bar,prismatic",
-		"desc": "合乎天地道理的力量",
+		"desc": "合乎天地道理的力量。每1合理提供0.1物理抵抗。",
 		"unit": false,
 		"color": "#ffeb00",
 		"require": "g.touch_daoli",
 		"name": "合理",
 		"val": 0,
-		"max": 0
+		"max": 0,
+		"mod":{
+			"player.physical_save": 0.1
+		}
 	},
 	{
 		"id": "chaos",
 		"tags": "Bar,prismatic",
-		"desc": "无序的,不合理的",
+		"desc": "无序的,不合理的。每1混沌提供0.1物理抵抗。",
 		"unit": false,
 		"color": "#808080",
 		"require": "g.xiulian_astro_zhuji_3>=1",
 		"name": "混沌",
 		"val": 0,
-		"max": 0
+		"max": 0,
+		"mod":{
+			"player.physical_save": 0.1
+		}
 	},
 	{
 		"id": "elect",
@@ -2664,5 +3117,13 @@
 		"name": "电能",
 		"val": 0,
 		"max": 1
+	},
+	{
+		"id": "overlord_symbol",
+		"name": "霸者之誓",
+		"desc": "霸者之誓",
+		"group": "霸者",
+		"locked": true,
+		"max": 0
 	}
 ]

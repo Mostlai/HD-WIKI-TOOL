@@ -295,7 +295,10 @@ def ana_data(A):
         for i in A:
             if i.get('require', '') != '':
                 if item["id"] in i["require"]:
-                    text += '[[' + i["name"] + ']]  '
+                    if item.get('name', '') != '':
+                        text += '[[' + i["name"] + ']]  '
+                    else:
+                        text += '[[' + i["id"] + ']]  '
 
         if item.get('cost', '') != '' and item['from'] != "armors" and item['from'] != "weapons":
             text += "\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n"
@@ -391,7 +394,10 @@ def ana_data(A):
                     text += '[[' + i['name'] + ']]  '
             if i.get('mod', '') != '':
                 if check_con in i['mod']:
-                    text += '[[' + i['name'] + ']]  '
+                    if i.get('name', '') != '':
+                        text += '[[' + i["name"] + ']]  '
+                    else:
+                        text += '[[' + i["id"] + ']]  '
             if i.get('xiulianresult', '') != '':
                 if check_con in i['xiulianresult']:
                     text += '[[' + i['name'] + ']]  '

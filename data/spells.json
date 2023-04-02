@@ -22,8 +22,7 @@
 					"num": 0.85
 				}
 			}
-		},
-		"flavor": ""
+		}
 	},
 	{
 		"id": "e_spe_overload",
@@ -48,8 +47,86 @@
 					"num": -0.2
 				}
 			}
+		}
+	},
+	{
+		"id": "tiaoxie_perk_dot",
+		"name":"调谐晶粹效果",
+		"school": "效果",
+		"level": 1,
+		"desc": "",
+		"locked": true,
+		"buy": {
+			"ganwu": 20
 		},
-		"flavor": ""
+		"cost": {
+			"shenshi": 10
+		},
+		"dot": {
+			"id": "equip_txpd_tpd",
+			"name": "调谐",
+			"desc":"当此状态存在时，抗性效果上升5%。",
+			"duration": 10000,
+			"dot_effect":{
+				"resist_mod_val":{
+					"num": 0.05
+				}
+			}
+		}
+	},
+	{
+		"id": "zuoyanzhihuan_perk_dot",
+		"name":"灼焰之环效果",
+		"school": "效果",
+		"level": 1,
+		"desc": "",
+		"locked": true,
+		"buy": {
+			"ganwu": 20
+		},
+		"cost": {
+			"shenshi": 10
+		},
+		"dot": {
+			"id": "equip_zyzhpd_tpd",
+			"name": "灼焰",
+			"desc":"当此状态存在时，每被敌人攻击命中时，10%几率对敌人释放法术(灼魂),对敌人造成40%物理属性的基础武器伤害并尝试附加10s的烧伤状态。",
+			"duration": 10000,
+			"dot_effect":{
+				"cast_spell":{
+					"if": "bedmg",
+					"spell": "zuoyanzhihuan_perk_spell",
+					"num": 1,
+					"percent": 10
+				}
+			}
+		}
+	},
+	{
+		"id": "zuoyanzhihuan_perk_spell",
+		"name":"灼魂",
+		"school": "效果",
+		"level": 1,
+		"desc": "",
+		"locked": true,
+		"buy": {
+			"ganwu": 20
+		},
+		"cost": {
+			"tili": 1
+		},
+		"attack": {
+			"damage": "(a.weapon.damage+a.weapon_bonus)*0.4",
+			"kind": "physical",
+			"bonus_class": 0,
+			"dot": {
+				"id": "syzhps_dot__bf",
+				"name": "烧伤",
+				"kind": "fire",
+				"duration": 10,
+				"damage": 20
+			}
+		}
 	},
 	{
 		"id": "heli_enchant_1",
@@ -113,7 +190,6 @@
 			"exe_paper": 1,
 			"zero_crystal":1
 		},
-		"flavor": "低能级....",
 		"cost": {
 			"heli": 2
 		},
@@ -142,7 +218,6 @@
 			"exe_paper": 2,
 			"zero_crystal":2
 		},
-		"flavor": "低能级....",
 		"cost": {
 			"chaos": 2
 		},
@@ -1214,7 +1289,7 @@
 	},
 	{
 		"id": "yqwks",
-		"name": "云气望空式[初归]",
+		"name": "云气望空式",
 		"school": "归藏",
 		"require": "g.canglanxiezou>=1",
 		"level": 4,
@@ -1231,7 +1306,7 @@
 			"kind": "body",
 			"dot": {
 				"kind": "body",
-				"name": "云气望空式[初归]",
+				"name": "云气望空式",
 				"duration": 1,
 				"damage": 14
 			}
@@ -1239,7 +1314,7 @@
 	},
 	{
 		"id": "cdfxs",
-		"name": "抽刀封隙式[初归]",
+		"name": "抽刀封隙式",
 		"school": "归藏",
 		"require": "g.canglanxiezou>=1",
 		"level": 5,
@@ -1263,7 +1338,7 @@
 	},
 	{
 		"id": "lzgxs",
-		"name": "浪子归乡式[初归]",
+		"name": "浪子归乡式",
 		"desc": "短时间内提升大量躲闪和速度",
 		"school": "归藏",
 		"require": "g.canglanxiezou>=1",
@@ -1286,6 +1361,126 @@
 				"self": {
 					"dodge": 50,
 					"speed": 60
+				}
+			}
+		}
+	},
+	{
+		"id": "assault_attack",
+		"name": "惊神斩击",
+		"desc": "快速冲向敌人,造成120%的基础武器伤害。如果此次攻击命中,那么目标会被恍惚10s(减少30躲闪和20命中)。",
+		"school": "归藏",
+		"require": "g.guixuan>=1",
+		"level": 5,
+		"cd": 7,
+		"buy": {
+			"canglan": 3,
+			"huiguang": 3,
+			"huiguangzy": 1
+		},
+		"cost": {
+			"tili": 12,
+			"stamina": 7
+		},
+		"attack": {
+			"damage": "(a.weapon.damage+a.weapon_bonus)*1.2",
+			"kind": "body",
+			"bonus_class": 0,
+			"dot": {
+				"id": "assault_attack_bf",
+				"name": "恍惚",
+				"desc": "减少30躲闪和20命中",
+				"duration": 10,
+				"mod": {
+					"self": {
+						"dodge": -30,
+						"tohit": -20
+					}
+				}
+			}
+		}
+	},
+	{
+		"id": "accuracy_tohit",
+		"name": "精准打击",
+		"desc": "你集中精神攻击，减少你10%速度并增加你25点命中和9%物理暴击率。",
+		"school": "归藏",
+		"require": "g.guixuan>=1",
+		"level": 5,
+		"cd": 20,
+		"buy": {
+			"canglan": 3,
+			"huiguang": 3,
+			"huiguangzy": 1
+		},
+		"cost": {
+			"tili": 25,
+			"stamina": 7
+		},
+		"dot": {
+			"id": "accuracy_tohit_bf",
+			"name": "精准打击",
+			"desc": "你集中精神攻击，减少你10%速度并增加你25点命中和9%物理暴击率。",
+			"duration": 10000,
+			"mod": {
+				"self": {
+					"physical_critical": 9,
+					"speed": "-10%",
+					"tohit": 25
+				}
+			}
+		}
+	},
+	{
+		"id": "perfect_tohit",
+		"name": "完美打击",
+		"desc": "你已经学会专注你的攻击来命中目标,在10s内增加你的30点命中。",
+		"school": "归藏",
+		"require": "g.guixuan>=1",
+		"level": 5,
+		"cd": 20,
+		"buy": {
+			"canglan": 3,
+			"huiguang": 3,
+			"huiguangzy": 1
+		},
+		"cost": {
+			"tili": 20
+		},
+		"dot": {
+			"id": "perfect_tohit_bf",
+			"name": "完美打击",
+			"duration": 10,
+			"mod": {
+				"self": {
+					"tohit": 30
+				}
+			}
+		}
+	},
+	{
+		"id": "speed_up",
+		"name": "急速",
+		"desc": "通过严格的训练你已经学会在短时间内爆发你的速度，10s内提高你15速度。",
+		"school": "归藏",
+		"require": "g.guixuan>=1",
+		"level": 5,
+		"cd": 15,
+		"buy": {
+			"canglan": 3,
+			"huiguang": 3,
+			"huiguangzy": 1
+		},
+		"cost": {
+			"tili": 20
+		},
+		"dot": {
+			"id": "speed_up_bf",
+			"name": "急速",
+			"duration": 10,
+			"mod": {
+				"self": {
+					"speed": 15
 				}
 			}
 		}
@@ -1695,7 +1890,7 @@
 		"name":"弱点侦察",
 		"school": "神识",
 		"level": 9,
-		"desc": "使用神识感知敌人弱点。当此状态存在时，每次造成的最终伤害有5%几率提高20%。",
+		"desc": "使用神识感知敌人弱点。当此状态存在时，物理暴击率和法术暴击率提高5%。",
 		"require": "g.techo_phy_sszdyy>=1",
 		"buy": {
 			"shenshi": 10,
@@ -1710,6 +1905,19 @@
 			"shenshi": 10
 		},
 		"dot": {
+			"id": "effect_ruodianzhencha",
+			"name": "弱点侦察",
+			"desc":"当此状态存在时，物理暴击率和法术暴击率提高5%。",
+			"duration": 10000,
+			"duration": 10,
+			"mod": {
+				"self": {
+					"physical_critical": 5,
+					"spell_critical": 5
+				}
+			}
+		},
+		"dot_unused": {
 			"id": "effect_ruodianzhencha",
 			"name": "弱点侦察",
 			"desc":"当此状态存在时，每次造成的最终伤害有5%几率提高20%。",
@@ -1769,9 +1977,9 @@
 		"id": "overlord_symbol_1",
 		"name":"天誓",
 		"school": "神识",
-		"level": 9,
-		"desc": "霸王天誓，必承霸者之重。",
-		"locked": false,
+		"level": 1,
+		"desc": "霸王天誓，必承霸者之重。施法后，额外受到30%伤害，遇到的敌人将获得额外加强效果。敌人死亡后掉落稀有装备。",
+		"require": "g.xiulian_zhuji_2_1>=1",
 		"buy": {
 			"shenshi": 20
 		},
@@ -1781,7 +1989,7 @@
 		"dot": {
 			"id": "effect_overlord_symbol_1",
 			"name": "天誓",
-			"desc":"霸王天誓，必承霸者之重。此效果存在时，额外受到30%伤害，遇到的敌人将获得额外加强效果。",
+			"desc":"霸王天誓，必承霸者之重。此效果存在时，额外受到30%伤害，遇到的敌人将获得额外加强效果。敌人死亡后掉落稀有装备。",
 			"duration": 10000,
 			"dot_effect":{
 				"be_damage_scale":{

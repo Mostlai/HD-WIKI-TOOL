@@ -694,7 +694,7 @@
     },
     {
         "title": "标准中甲",
-        "text": ">标准化的中甲\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[护甲培训]]  >=1 与 [[量产型护甲]]  >=1\n\n```\n解锁需求(JSON):g.hjyj_1_2>=1 与 g.hjyj_1_1>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[中甲工厂]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[铁板]]:5\n\n[[铜板]]:3\n\n[[合成金属F-C]]:5\n\n[[零结晶]]:1\n\n[[人力]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[中甲工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[中甲工厂]]  [[重甲工厂]]  \n\n</fieldset>",
+        "text": ">标准化的中甲\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[护甲培训]]  >=1 与 [[量产型护甲]]  >=1\n\n```\n解锁需求(JSON):g.hjyj_1_2>=1 与 g.hjyj_1_1>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[出售标准中甲]]  [[中甲工厂]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[铁板]]:5\n\n[[铜板]]:3\n\n[[合成金属F-C]]:5\n\n[[零结晶]]:1\n\n[[人力]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[中甲工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[中甲工厂]]  [[重甲工厂]]  \n\n</fieldset>",
         "tags": "征服武器",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -703,7 +703,7 @@
     },
     {
         "title": "标准重甲",
-        "text": ">标准化的重甲\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[重型护甲研究]]  >=1\n\n```\n解锁需求(JSON):g.hjyj_1_3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[重甲工厂]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[标准中甲]]:2\n\n[[钱币]]:100\n\n[[铁板]]:5\n\n[[铜板]]:3\n\n[[合成金属F-C]]:5\n\n[[零结晶]]:1\n\n[[人力]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[重甲工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[重甲工厂]]  \n\n</fieldset>",
+        "text": ">标准化的重甲\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[重型护甲研究]]  >=1\n\n```\n解锁需求(JSON):g.hjyj_1_3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[出售标准重甲]]  [[重甲工厂]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[标准中甲]]:2\n\n[[钱币]]:100\n\n[[铁板]]:5\n\n[[铜板]]:3\n\n[[合成金属F-C]]:5\n\n[[零结晶]]:1\n\n[[人力]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[重甲工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[重甲工厂]]  \n\n</fieldset>",
         "tags": "征服武器",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -712,7 +712,7 @@
     },
     {
         "title": "反材料工具",
-        "text": ">小型的定制化武器,可以快速破除敌军的防御,一般用于小规模战争\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[杀伤武器学]]  >=3 与 [[生命工程学]]  >=5\n\n```\n解锁需求(JSON):g.weapon_1>=3 与 g.bio_metal_1>=5\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[污浊武器]]  [[民兵训练场]]  [[反材料扩展]]  [[污浊武器工厂]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[合成金属F-C]]:3\n\n[[神经材料]]:1\n\n[[零结晶]]:1\n\n[[铁板]]:4\n\n[[人力]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[反材料扩展]]  [[反材料工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[反材料工厂]]  \n\n</fieldset>",
+        "text": ">小型的定制化武器,可以快速破除敌军的防御,一般用于小规模战争\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[杀伤武器学]]  >=3 与 [[生命工程学]]  >=5\n\n```\n解锁需求(JSON):g.weapon_1>=3 与 g.bio_metal_1>=5\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[污浊武器]]  [[民兵训练场]]  [[出售标准轻甲]]  [[反材料扩展]]  [[污浊武器工厂]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[合成金属F-C]]:3\n\n[[神经材料]]:1\n\n[[零结晶]]:1\n\n[[铁板]]:4\n\n[[人力]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[反材料扩展]]  [[反材料工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[反材料工厂]]  \n\n</fieldset>",
         "tags": "征服武器",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -721,7 +721,7 @@
     },
     {
         "title": "污浊武器",
-        "text": ">以污浊核心为主体的武器,具有大杀伤效果\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[污浊研究]]  >=1 与 [[反材料工具]]  >=4\n\n```\n解锁需求(JSON):g.xiulian_bio_dirty_1>=1 与 g.r_adv_w_sj1>=4\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[合成金属F-C]]:20\n\n[[污浊核心]]:2\n\n[[钛板]]:10\n\n[[人力]]:50\n\n[[计算力]]:80\n\n[[神经材料]]:2\n\n[[零结晶]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[污浊武器工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[污浊武器工厂]]  \n\n</fieldset>",
+        "text": ">以污浊核心为主体的武器,具有大杀伤效果\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[污浊研究]]  >=1 与 [[反材料工具]]  >=4\n\n```\n解锁需求(JSON):g.xiulian_bio_dirty_1>=1 与 g.r_adv_w_sj1>=4\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[出售污浊武器]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[合成金属F-C]]:20\n\n[[污浊核心]]:2\n\n[[钛板]]:10\n\n[[人力]]:50\n\n[[计算力]]:80\n\n[[神经材料]]:2\n\n[[零结晶]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[污浊武器工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[污浊武器工厂]]  \n\n</fieldset>",
         "tags": "征服武器",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -730,7 +730,7 @@
     },
     {
         "title": "冷结武器",
-        "text": ">以冰冻核心为主体的武器,具有大杀伤效果\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[杀伤武器学]]  >=1 与 [[冰冻核心]]  >=10\n\n```\n解锁需求(JSON):g.weapon_1>=1 与 g.cold_core>=10\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[合成金属F-C]]:20\n\n[[冰冻核心]]:4\n\n[[钛板]]:2\n\n[[人力]]:50\n\n[[计算力]]:80\n\n[[神经材料]]:2\n\n[[零结晶]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[冷结武器工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[冷结武器工厂]]  \n\n</fieldset>",
+        "text": ">以冰冻核心为主体的武器,具有大杀伤效果\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[杀伤武器学]]  >=1 与 [[冰冻核心]]  >=10\n\n```\n解锁需求(JSON):g.weapon_1>=1 与 g.cold_core>=10\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[出售冷结武器]]  [[武器组合解析]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[合成金属F-C]]:20\n\n[[冰冻核心]]:4\n\n[[钛板]]:2\n\n[[人力]]:50\n\n[[计算力]]:80\n\n[[神经材料]]:2\n\n[[零结晶]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]].max:5\n\n[[战斗评级]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[武器控件]]  [[冷结武器工厂]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[冷结武器工厂]]  \n\n</fieldset>",
         "tags": "征服武器",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -1873,7 +1873,7 @@
     },
     {
         "title": "月影森林前哨基地",
-        "text": ">在月影森林建设一个基地\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[源泉灵木]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[灵木探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">在月影森林建设一个基地\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往月影森林]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_yysl>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[源泉灵木]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[灵木探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "征服 5级",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -1891,7 +1891,7 @@
     },
     {
         "title": "巨灵山守望点",
-        "text": ">在巨灵山建设一个守望点\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[纯白金石]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[纯白探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">在巨灵山建设一个守望点\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往巨灵山]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_jlss>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[纯白金石]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[纯白探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "征服 5级",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -1909,7 +1909,7 @@
     },
     {
         "title": "劳泽大湖测量中心",
-        "text": ">在劳泽大湖建设一个测量中心\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[无垢玉髓]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[大泽探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">在劳泽大湖建设一个测量中心\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往劳泽大湖]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_lzdh>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[无垢玉髓]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[大泽探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "征服 5级",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -1927,7 +1927,7 @@
     },
     {
         "title": "地脉火山研究站",
-        "text": ">在地脉火山建设一个研究站\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[阳息烈石]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[阳炎探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">在地脉火山建设一个研究站\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往地脉火山]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_dmhs>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[阳息烈石]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[阳炎探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "征服 5级",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -1945,7 +1945,7 @@
     },
     {
         "title": "古老盆地观测站",
-        "text": ">在古老盆地建设一个观测站\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[载德厚土]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[盆地探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">在古老盆地建设一个观测站\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往古老盆地]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_glpd>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[5级]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[5级]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]]:33\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[战斗评级]]:15\n\n[[地板空间]].max:20\n\n[[载德厚土]].rate:0.1\n\n[[计算力]].max:15\n\n[[计算力]].rate:0.2\n\n[[人力]].max:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[盆地探索者]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "征服 5级",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -2035,7 +2035,7 @@
     },
     {
         "title": "月影森林",
-        "text": ">繁茂的森林,地表常年处于阴影之中。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[森林深处[滴露花,灵壤,阳露珠]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[源泉灵木]]:3~7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">繁茂的森林,地表常年处于阴影之中。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往月影森林]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_yysl>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[月影森林前哨基地]]  [[月影森林]]  [[森林深处]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[源泉灵木]]:3~7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -2043,7 +2043,7 @@
         "modifier": "Pldada"
     },
     {
-        "title": "森林深处【滴露花,灵壤,阳露珠】",
+        "title": "森林深处",
         "text": ">繁茂的森林,地表常年处于阴影之中。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[月影森林]]  >=1 与 [[世界探索]]  >=1\n\n```\n解锁需求(JSON):g.yysl>=1 与 g.tansuo>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[源泉灵木]]:3\n\n[[滴露花]]:5\n\n[[灵壤]]:2~4\n\n[[阳露珠]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
@@ -2053,7 +2053,7 @@
     },
     {
         "title": "巨灵山",
-        "text": ">最巍峨的山脉，最纯正的金石之力\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[巨灵山脊[铁石,空金,岩块]]]  [[巨灵山背[土松,绿柏]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[纯白金石]]:2~5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">最巍峨的山脉，最纯正的金石之力\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往巨灵山]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_jlss>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[巨灵山守望点]]  [[巨灵山]]  [[巨灵山脊[铁石,空金,岩块]]]  [[巨灵山背[土松,绿柏]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[纯白金石]]:2~5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -2062,7 +2062,7 @@
     },
     {
         "title": "地脉火山",
-        "text": ">喷发着岩浆,散发着恐怖的高温\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[火山边缘[红衫,火伤藤]]]  [[火泉[火壤,火花]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[阳息烈石]]:3~7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">喷发着岩浆,散发着恐怖的高温\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往地脉火山]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_dmhs>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[地脉火山研究站]]  [[地脉火山]]  [[火山边缘]]  [[火泉[火壤,火花]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[阳息烈石]]:3~7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -2070,7 +2070,7 @@
         "modifier": "Pldada"
     },
     {
-        "title": "火山边缘【红衫,火伤藤】",
+        "title": "火山边缘",
         "text": ">喷发着岩浆,散发着恐怖的高温\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[地脉火山]]  >=1 与 [[世界探索]]  >=1\n\n```\n解锁需求(JSON):g.dmhs>=1 与 g.tansuo>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[阳息烈石]]:1~3\n\n[[红杉]]:4\n\n[[火伤藤]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
@@ -2080,7 +2080,7 @@
     },
     {
         "title": "劳泽大湖",
-        "text": ">泥泞的沼泽,庞大的湖泊\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[大湖边[牵牛花,青松,水藤]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[无垢玉髓]]:4~5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">泥泞的沼泽,庞大的湖泊\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往劳泽大湖]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_lzdh>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[劳泽大湖测量中心]]  [[劳泽大湖]]  [[大湖边[牵牛花,青松,水藤]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[无垢玉髓]]:4~5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -2089,7 +2089,7 @@
     },
     {
         "title": "古老盆地",
-        "text": ">存在几万年的古老盆地,有着纯粹的厚土之力\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[盆地中心[土金,岩火,水银花]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[载德厚土]]:5~6\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">存在几万年的古老盆地,有着纯粹的厚土之力\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[前往古老盆地]]  >=1\n\n```\n解锁需求(JSON):g.qianwnag_glpd>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[古老盆地观测站]]  [[古老盆地]]  [[盆地中心]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:5\n\n[[载德厚土]]:5~6\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -2097,7 +2097,7 @@
         "modifier": "Pldada"
     },
     {
-        "title": "盆地中心【土金,岩火,水银花】",
+        "title": "盆地中心",
         "text": ">存在几万年的古老盆地,有着纯粹的厚土之力\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[古老盆地]]  >=1 与 [[世界探索]]  >=1\n\n```\n解锁需求(JSON):g.glpd>=1 与 g.tansuo>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[载德厚土]]:5~6\n\n[[土金]]:5\n\n[[岩火]]:4\n\n[[水银花]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
@@ -2125,7 +2125,7 @@
     },
     {
         "title": "基魂跃升",
-        "text": ">完成跃升获得【一重跃升】\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[evt_zhujiyuesheng]]\n\n标签中含有此迭失条目名称的条目有以下:\n\n<$list filter=\"[tag[evt_zhujiyuesheng]sort[title]]\"/>\n\n\n\n```\n解锁需求(JSON):evt_zhujiyuesheng\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[一重跃升]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">完成跃升获得【一重跃升】\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[基魂跃升]]  >=1\n\n```\n解锁需求(JSON):g.jihunyuesheng>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[一重跃升]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -2160,7 +2160,7 @@
         "modifier": "Pldada"
     },
     {
-        "title": "未见之村【渴血】",
+        "title": "未见之村",
         "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[全向刃]]  >=1\n\n```\n解锁需求(JSON):g.quanxiangren>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[游空真魂]]:10\n\nblood_soulcore_pice:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
         "created": "1444111100000000",
@@ -3430,7 +3430,7 @@
     },
     {
         "title": "装卸合成",
-        "text": ">消耗5机传结构和7组装套件并生产1装卸单元I\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[专业性真直应用]]  >=1\n\n```\n解锁需求(JSON):g.techo_eng_zyzz_1>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[装卸单元I]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[装卸单元I]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[套件单元]]:80\n\n[[机传结构]]:80\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[组装线程]]:1\n\n[[套件单元]].balance:-5\n\n[[机传结构]].balance:-7\n\n[[装卸单元I]].balance:-1\n\n[[人力]].max:-300\n\n[[工业用地]]:0.5\n\n[[工业电力]]:0.5\n\n[[工业线程]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">消耗5机传结构和7组装套件并生产1装卸单元I\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[专业性真直应用]]  >=1\n\n```\n解锁需求(JSON):g.techo_eng_zyzz_1>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[装卸单元I]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[装卸单元I]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[套件单元]]:80\n\n[[机传结构]]:80\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[组装线程]]:1\n\n[[套件单元]].balance:-5\n\n[[机传结构]].balance:-7\n\n[[装卸单元I]].balance:1\n\n[[人力]].max:-300\n\n[[工业用地]]:0.5\n\n[[工业电力]]:0.5\n\n[[工业线程]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "模式 装卸单元I",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -6382,7 +6382,7 @@
     },
     {
         "title": "全向刃",
-        "text": ">游空真魂凝聚的利刃，刀尖指向血液汇聚之处\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[纯净基魂]]  >=1\n\n```\n解锁需求(JSON):g.xl_lj_zhenhun_10>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[point_blade]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[point_blade]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n[[未见之村[渴血]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[五环点]]:15\n\n[[落日点]]:10\n\n[[魂语刃]]:1\n\n[[灵血]]:20\n\n[[游空真魂]]:40\n\n[[气血]]:50\n\n[[体力]]:30\n\n[[纯浊灵体]]:10\n\n[[污浊核心]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[钱币]].rate:10\n\n[[地板空间]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">游空真魂凝聚的利刃，刀尖指向血液汇聚之处\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[纯净基魂]]  >=1\n\n```\n解锁需求(JSON):g.xl_lj_zhenhun_10>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[point_blade]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[point_blade]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n[[未见之村]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[五环点]]:15\n\n[[落日点]]:10\n\n[[魂语刃]]:1\n\n[[灵血]]:20\n\n[[游空真魂]]:40\n\n[[气血]]:50\n\n[[体力]]:30\n\n[[纯浊灵体]]:10\n\n[[污浊核心]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[钱币]].rate:10\n\n[[地板空间]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "家具 point_blade",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7263,6 +7263,51 @@
         "modifier": "Pldada"
     },
     {
+        "title": "出售标准轻甲-市场购买",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[反材料工具]]  >=1\n\n```\n解锁需求(JSON):g.r_adv_w_sj1>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[市场出售]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[市场出售]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[反材料工具]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:9\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "市场 市场出售",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "出售标准中甲-市场购买",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[标准中甲]]  >=1\n\n```\n解锁需求(JSON):g.r_adv_bzzj>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[市场出售]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[市场出售]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[标准中甲]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:13\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "市场 市场出售",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "出售标准重甲-市场购买",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[标准重甲]]  >=1\n\n```\n解锁需求(JSON):g.r_adv_bzhj>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[市场出售]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[市场出售]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[标准重甲]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:18\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "市场 市场出售",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "出售污浊武器-市场购买",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[污浊武器]]  >=1\n\n```\n解锁需求(JSON):g.r_adv_w_sj2>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[市场出售]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[市场出售]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[标准重甲]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:15\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "市场 市场出售",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "出售冷结武器-市场购买",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[冷结武器]]  >=1\n\n```\n解锁需求(JSON):g.r_adv_w_sj3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[市场出售]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[市场出售]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[冷结武器]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:25\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "市场 市场出售",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
         "title": "短剑-市场购买",
         "text": ">一把好用的短剑\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[贸易]]  >0\n\n```\n解锁需求(JSON):g.market_un>0\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[购买武器]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[购买武器]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "市场 购买武器",
@@ -7822,7 +7867,7 @@
     },
     {
         "title": "关于WIKI",
-        "text": ">在游戏界面的右上角可以找到WIKI入口。WIKI的内容限于作者精力不会太丰富，你可以在点击WIKI页面左侧的【路线图】来查看当前浏览条目的相关条目。如果你想丰富WIKI内容，可以联系作者获得WIKI的push 令牌。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[气血]]  >=1\n\n```\n解锁需求(JSON):g.hp>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">在游戏界面的右上角可以找到@WIKI$入口。@WIKI$的内容限于作者精力不会太丰富，你可以在点击@WIKI$页面左侧的@路线图$来查看当前浏览条目的相关条目。如果你想丰富WIKI内容，可以联系作者获得WIKI的push 令牌。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[气血]]  >=1\n\n```\n解锁需求(JSON):g.hp>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7831,7 +7876,7 @@
     },
     {
         "title": "纯浊灵体",
-        "text": ">你最开始可以在【小型战场】上获取这种资源，每个人生来可以容纳2个纯浊灵体，但如果你没有解锁他，是无法看见的。要提升纯浊灵体的资源上限值，可以通过建造【流光玻璃瓶】来提升。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[灵体学]]  >=1\n\n```\n解锁需求(JSON):g.lingti_xue>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">你最开始可以在@小型战场$上获取这种资源，每个人生来可以容纳2个@纯浊灵体$，但如果你没有解锁他，是无法看见的。要提升纯浊灵体的资源上限值，可以通过建造@流光玻璃瓶$来提升。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[灵体学]]  >=1\n\n```\n解锁需求(JSON):g.lingti_xue>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7840,7 +7885,7 @@
     },
     {
         "title": "模型入门I",
-        "text": ">模式由工厂，配方和产品组成，工厂和配方使用【工业用地】【工业电量】【工业线程】，三者缺一不可。工业用地由部分升级研究和工厂提供，工业电量主要由发电配方提供，工业线程由工厂提供。使用同一线程类型的配方共享那个线程类型上限。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[生产论]]  >=1\n\n```\n解锁需求(JSON):g.shengchanlun>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">模式由工厂，配方和产品组成，工厂和配方使用@工业用地$ @工业电量$ @工业线程$，三者缺一不可。工业用地由部分升级研究和工厂提供，工业电量主要由发电配方提供，工业线程由工厂提供。使用同一线程类型的配方共享那个线程类型上限。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[生产论]]  >=1\n\n```\n解锁需求(JSON):g.shengchanlun>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7858,7 +7903,7 @@
     },
     {
         "title": "征服I",
-        "text": ">当【群体政治学】达到3级时，你将解锁征服。征服需要投入一定量的先进武器获取对应的伤害要素，如轻甲重甲等。征服由成功和失败两种情况，按E来查看征服指示器。一般来说，失败将会失去一个你已经成功征服的对象。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[群体政治学]]  >=1\n\n```\n解锁需求(JSON):g.shenshi_3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">当@群体政治学$达到3级时，你将解锁征服。征服需要投入一定量的先进武器获取对应的伤害要素，如轻甲重甲等。征服由成功和失败两种情况，按E来查看征服指示器。一般来说，失败将会失去一个你已经成功征服的对象。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[群体政治学]]  >=1\n\n```\n解锁需求(JSON):g.shenshi_3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7867,7 +7912,7 @@
     },
     {
         "title": "征服II",
-        "text": ">为了获得更多的先进武器，你需要完成以下研究任务，【护甲研究】【武器研究】【伤害容量研究】【战时人力研究】以及他们的后续解锁研究。这四项研究均要进行50次。在研究中途或者完成后，将会解锁先进武器以及对应的工厂，如果你无法建造工厂，可以选择手动建造先进武器。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[群体政治学]]  >=1\n\n```\n解锁需求(JSON):g.shenshi_3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">为了获得更多的先进武器，你需要完成以下研究任务，@护甲研究$ @武器研究$ @伤害容量研究$ @战时人力研究$以及他们的后续解锁研究。这四项研究均要进行50次。在研究中途或者完成后，将会解锁先进武器以及对应的工厂，如果你无法建造工厂，可以选择手动建造先进武器。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[群体政治学]]  >=1\n\n```\n解锁需求(JSON):g.shenshi_3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7885,7 +7930,7 @@
     },
     {
         "title": "测绘资料",
-        "text": ">测绘资料是前期重要的资源之一，一开始你可以在【探险】里的【远山】副本获得这种资源。研究【基础知识聚合】和【基础科学】解锁他\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[感悟]]  >=1\n\n```\n解锁需求(JSON):g.ganwu>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">@测绘资料$是前期重要的资源之一，一开始你可以在探险里的@远山$副本获得这种资源。研究@基础知识聚合$和@基础科学$解锁他\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[感悟]]  >=1\n\n```\n解锁需求(JSON):g.ganwu>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7894,7 +7939,7 @@
     },
     {
         "title": "冰冻核心和晶流水",
-        "text": ">当你学会【攀登技巧】和【极寒环境适应】以及【清醒思维】后，你将解锁冰冻副本，完全通关这个系列副本后，你可以采掘到【冰冻核心】，获取【冰冻核心】之后你可以在家具里面建造【神经冷凝箱】来获取【晶流水】和【废热水】。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[攀登技巧]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_ld_panpa>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">当你学会@攀登技巧$和@极寒环境适应$以及@清醒思维$后，你将解锁冰冻副本，完全通关这个系列副本后，你可以采掘到@冰冻核心$，获取@冰冻核心$之后你可以在家具里面建造@神经冷凝箱$来获取@晶流水$和@废热水$。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[攀登技巧]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_ld_panpa>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7903,7 +7948,7 @@
     },
     {
         "title": "神经材料上限",
-        "text": ">神经材料是前期重要的资源之一，当部分升级或修炼需要10个材料才能解锁的时候，你需要学会【灵反空间存储】来提高你的神经材料存储上限。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[神经材料]]  >=5\n\n```\n解锁需求(JSON):g.sj_met>=5\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">@神经材料$是前期重要的资源之一，当部分升级或修炼需要10个材料才能解锁的时候，你需要学会@灵反空间存储$来提高你的神经材料存储上限。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[神经材料]]  >=5\n\n```\n解锁需求(JSON):g.sj_met>=5\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -7912,7 +7957,7 @@
     },
     {
         "title": "生灵石获取",
-        "text": ">生灵石是修炼到筑基一重的必须材料，但在筑基一重之前只能通过探险【中型战场】副本来稳定获取生灵石，当你达到筑基一重之后，将会有更多途径来让你更多更快地获取生灵石。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[生灵石]]  >=1\n\n```\n解锁需求(JSON):g.shenglingshi>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">@生灵石$是修炼到筑基一重的必须材料，但在筑基一重之前只能通过探险@中型战场$副本来稳定获取生灵石，当你达到筑基一重之后，将会有更多途径来让你更多更快地获取生灵石。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[生灵石]]  >=1\n\n```\n解锁需求(JSON):g.shenglingshi>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[指引任务]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[指引任务]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[钱币]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": " 指引任务",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -8370,7 +8415,7 @@
         "modifier": "Pldada"
     },
     {
-        "title": "2023003",
+        "title": "2023005",
         "text": "><span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "玩家信息",
         "created": "1444111100000000",
@@ -8776,7 +8821,7 @@
     },
     {
         "title": "基魂",
-        "text": ">筑基所凝聚的真魂\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[黄泉稳流井]]  [[筑基修士]]  [[晦暗法师]]  [[筑基一重(初入筑基)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[真魂占用]].max:1\n\n[[衰败]].rate:-1\n\n[[气血]].rate:0.2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[基魂反射仪]]  [[基魂震荡]]  [[命玄前奏]]  [[真元五环]]  [[落日终曲]]  [[末端序列]]  [[破道之梦]]  [[落日乐曲]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[基魂反射仪]]  [[筑基零重]]  \n\n</fieldset>",
+        "text": ">筑基所凝聚的真魂\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[基魂跃升]]  [[黄泉稳流井]]  [[筑基修士]]  [[晦暗法师]]  [[筑基一重(初入筑基)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[真魂占用]].max:1\n\n[[衰败]].rate:-1\n\n[[气血]].rate:0.2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[基魂反射仪]]  [[基魂震荡]]  [[命玄前奏]]  [[真元五环]]  [[落日终曲]]  [[末端序列]]  [[破道之梦]]  [[落日乐曲]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[基魂反射仪]]  [[筑基零重]]  \n\n</fieldset>",
         "tags": "资源",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -8884,7 +8929,7 @@
     },
     {
         "title": "晶流水",
-        "text": ">低温流体,有着优良的散热性,是用途广泛的一种流体\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[流体应用学]]  >=3 与[[冰冻核心]]  >=1\n\n```\n解锁需求(JSON):g.liu_yy>=3 与g.cold_core>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[巨灵山脊[铁石,空金,岩块]]]  [[巨灵山背[土松,绿柏]]]  [[废热处理]]  [[凝结呼吸(永生之望)]]  [[超然形式II(生命构造)]]  [[低温研究(形态变化)]]  [[进阶天文观测(观测之术)]]  [[低温传播实验(信息海)]]  [[低温材料性质(物体结构)]]  [[低温生物样本(生命构造)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[低温容器]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[神经冷凝箱]]  [[冷凝栅格]]  [[冷却设施]]  [[生物冲洗床]]  [[烟尘处理]]  \n\n</fieldset>",
+        "text": ">低温流体,有着优良的散热性,是用途广泛的一种流体\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[流体应用学]]  >=3 与[[冰冻核心]]  >=1\n\n```\n解锁需求(JSON):g.liu_yy>=3 与g.cold_core>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[巨灵山守望点]]  [[巨灵山]]  [[巨灵山脊[铁石,空金,岩块]]]  [[巨灵山背[土松,绿柏]]]  [[废热处理]]  [[凝结呼吸(永生之望)]]  [[超然形式II(生命构造)]]  [[低温研究(形态变化)]]  [[进阶天文观测(观测之术)]]  [[低温传播实验(信息海)]]  [[低温材料性质(物体结构)]]  [[低温生物样本(生命构造)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[低温容器]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[神经冷凝箱]]  [[冷凝栅格]]  [[冷却设施]]  [[生物冲洗床]]  [[烟尘处理]]  \n\n</fieldset>",
         "tags": "资源",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -12205,7 +12250,7 @@
     },
     {
         "title": "世界探索",
-        "text": ">对世界展开调查\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[材料炼化]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_str_clhianh>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[森林深处[滴露花,灵壤,阳露珠]]]  [[火山边缘[红衫,火伤藤]]]  [[盆地中心[土金,岩火,水银花]]]  [[材料柜]]  [[城边矿山[铁石,赤铁]]]  [[巨灵山脊[铁石,空金,岩块]]]  [[巨灵山背[土松,绿柏]]]  [[火泉[火壤,火花]]]  [[大湖边[牵牛花,青松,水藤]]]  [[陷绝峡谷[奇异液体]]]  [[探索者]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:0.1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:5%\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下影响\n\n[[时间]]:3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">对世界展开调查\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[材料炼化]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_str_clhianh>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[森林深处]]  [[火山边缘]]  [[盆地中心]]  [[材料柜]]  [[城边矿山[铁石,赤铁]]]  [[巨灵山脊[铁石,空金,岩块]]]  [[巨灵山背[土松,绿柏]]]  [[火泉[火壤,火花]]]  [[大湖边[牵牛花,青松,水藤]]]  [[陷绝峡谷[奇异液体]]]  [[探索者]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:0.1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:5%\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下影响\n\n[[时间]]:3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "技能",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -13330,7 +13375,7 @@
     },
     {
         "title": "护甲研究",
-        "text": ">研究护甲\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=3\n\n```\n解锁需求(JSON):g.jungongxue>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[标准中甲]]  [[标准重甲]]  [[一算子]]  [[量产型护甲]]  [[重型护甲研究]]  [[护甲培训]]  [[护甲扩容]]  [[护甲镀层]]  [[进阶镀层]]  [[护甲容量扩容]]  [[凝华计算]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:0.3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">研究护甲\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=3\n\n```\n解锁需求(JSON):g.jungongxue>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[标准中甲]]  [[标准重甲]]  [[一算子]]  [[量产型护甲]]  [[重型护甲研究]]  [[护甲培训]]  [[护甲扩容]]  [[护甲镀层]]  [[进阶镀层]]  [[护甲容量扩容]]  [[凝华计算]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:0.3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "任务/动作",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -13339,7 +13384,7 @@
     },
     {
         "title": "量产型护甲",
-        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[护甲研究]]  >=10\n\n```\n解锁需求(JSON):g.hjyj_1>=10\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[标准中甲]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[护甲研究]]  >=10\n\n```\n解锁需求(JSON):g.hjyj_1>=10\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[标准中甲]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:50\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "任务/动作",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -13366,7 +13411,7 @@
     },
     {
         "title": "武器研究",
-        "text": ">研究武器\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=3\n\n```\n解锁需求(JSON):g.jungongxue>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[一算子]]  [[军事激光充能座]]  [[军事激光电容]]  [[武器研究成果]]  [[武器研究成果]]  [[反材料升级]]  [[污浊升级]]  [[冰冻升级]]  [[凝华计算]]  [[武器工厂扩容]]  [[战时用地]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:0.3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">研究武器\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=3\n\n```\n解锁需求(JSON):g.jungongxue>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[一算子]]  [[军事激光充能座]]  [[军事激光电容]]  [[武器研究成果]]  [[武器研究成果]]  [[反材料升级]]  [[污浊升级]]  [[冰冻升级]]  [[凝华计算]]  [[武器工厂扩容]]  [[战时用地]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:0.3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "任务/动作",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -13393,7 +13438,7 @@
     },
     {
         "title": "伤害容量研究",
-        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=3\n\n```\n解锁需求(JSON):g.jungongxue>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[一算子]]  [[护甲扩容]]  [[冰冻扩展]]  [[污浊扩展]]  [[伤害槽]]  [[伤害槽扩容]]  [[护甲容量扩容]]  [[凝华计算]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\nqingjia.max:1\n\nzhongjia.max:1\n\nheavyjia.max:1\n\nwuzhuo.max:0.5\n\nbingdong.max:0.5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=3\n\n```\n解锁需求(JSON):g.jungongxue>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[一算子]]  [[护甲扩容]]  [[冰冻扩展]]  [[污浊扩展]]  [[伤害槽]]  [[伤害槽扩容]]  [[护甲容量扩容]]  [[凝华计算]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\nqingjia.max:1\n\nzhongjia.max:1\n\nheavyjia.max:1\n\nwuzhuo.max:0.5\n\nbingdong.max:0.5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "任务/动作",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -13402,7 +13447,61 @@
     },
     {
         "title": "战时人力研究",
-        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=5\n\n```\n解锁需求(JSON):g.jungongxue>=5\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[一算子]]  [[战时奖赏]]  [[军事化管理]]  [[战时人力升级]]  [[战争人力升级]]  [[凝华计算]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:100\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]].rate:-0.05\n\n[[士气]].rate:0.01\n\n[[组织度]].rate:0.006\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[军工学]]  >=5\n\n```\n解锁需求(JSON):g.jungongxue>=5\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[一算子]]  [[战时奖赏]]  [[军事化管理]]  [[战时人力升级]]  [[战争人力升级]]  [[凝华计算]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[厌战度]].rate:-0.05\n\n[[士气]].rate:0.01\n\n[[组织度]].rate:0.006\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "任务/动作",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "前往月影森林",
+        "text": ">解锁月影森林及相关征服\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[月影森林前哨基地]]  [[月影森林]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "任务/动作",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "前往巨灵山",
+        "text": ">解锁巨灵山及相关征服\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[巨灵山守望点]]  [[巨灵山]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "任务/动作",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "前往地脉火山",
+        "text": ">解锁地脉火山及相关征服\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[地脉火山研究站]]  [[地脉火山]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "任务/动作",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "前往劳泽大湖",
+        "text": ">解锁劳泽大湖及相关征服\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[劳泽大湖测量中心]]  [[劳泽大湖]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "任务/动作",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "前往古老盆地",
+        "text": ">解锁古老盆地及相关征服\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[侦察学说]]  >=1\n\n```\n解锁需求(JSON):g.zcx>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[古老盆地观测站]]  [[古老盆地]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:20\n\n[[感悟]]:30\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "任务/动作",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "武器组合解析",
+        "text": ">\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[冷结武器]]  >=1\n\n```\n解锁需求(JSON):g.r_adv_w_sj3>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[稿纸]]:15\n\n[[标准中甲]]:2\n\n[[反材料工具]]:2\n\n[[污浊武器]]:1\n\n[[冷结武器]]:1\n\n[[标准重甲]]:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[经验记录]]:15\n\n[[书籍]]:2\n\n[[经验值]]:20\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "任务/动作",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -14113,7 +14212,7 @@
     },
     {
         "title": "基魂跃升",
-        "text": ">对基魂进行跃升\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[破道修士]]  >=1 或 [[落日修士]]  >=1 或 [[命玄修士]]  >=1\n\n```\n解锁需求(JSON):g.podaoxius>=1 或 g.luorxiushi>=1 或 g.mxuanxs>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[筑基一重(初入筑基)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[基魂]]:5\n\n[[经典]]:10\n\n[[一阶生物样本]]:20\n\n[[纯白材料包]]:30\n\n[[亚极电缆]]:30\n\n[[感悟]]:1000\n\n[[计算力]]:1000\n\n[[人力]]:1500\n\n[[零结晶]]:70\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">对基魂进行跃升\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[破道修士]]  >=1 或 [[落日修士]]  >=1 或 [[命玄修士]]  >=1\n\n```\n解锁需求(JSON):g.podaoxius>=1 或 g.luorxiushi>=1 或 g.mxuanxs>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[基魂跃升]]  [[筑基一重(初入筑基)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[基魂]]:5\n\n[[经典]]:10\n\n[[一阶生物样本]]:20\n\n[[纯白材料包]]:30\n\n[[亚极电缆]]:30\n\n[[感悟]]:1000\n\n[[计算力]]:1000\n\n[[人力]]:1500\n\n[[零结晶]]:70\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "任务/动作",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -15373,7 +15472,7 @@
     },
     {
         "title": "侦察学说",
-        "text": ">安排人力对野外地形进行侦察\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[small_broadcast]]>=1\n\n标签中含有此迭失条目名称的条目有以下:\n\n<$list filter=\"[tag[small_broadcast]sort[title]]\"/>\n\n\n\n```\n解锁需求(JSON):g.small_broadcast>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[月影森林前哨基地]]  [[巨灵山守望点]]  [[劳泽大湖测量中心]]  [[地脉火山研究站]]  [[古老盆地观测站]]  [[月影森林]]  [[巨灵山]]  [[地脉火山]]  [[劳泽大湖]]  [[古老盆地]]  [[源泉灵木]]  [[纯白金石]]  [[阳息烈石]]  [[无垢玉髓]]  [[载德厚土]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[灵光]]:7\n\n[[人力]]:200\n\n[[计算力]]:70\n\n[[钱币]]:600\n\n[[超识]]:9\n\n[[神经材料]]:10\n\n[[零结晶]]:20\n\n[[冰冻核心]]:10\n\n[[污浊核心]]:10\n\n[[纯浊灵体]]:10\n\n[[污浊武器]]:1\n\n[[稿纸]]:30\n\n[[粗糙天文记录]]:65\n\n[[经验记录]]:10\n\n[[感悟]]:130\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">安排人力对野外地形进行侦察\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[small_broadcast]]>=1\n\n标签中含有此迭失条目名称的条目有以下:\n\n<$list filter=\"[tag[small_broadcast]sort[title]]\"/>\n\n\n\n```\n解锁需求(JSON):g.small_broadcast>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[源泉灵木]]  [[纯白金石]]  [[阳息烈石]]  [[无垢玉髓]]  [[载德厚土]]  [[前往月影森林]]  [[前往巨灵山]]  [[前往地脉火山]]  [[前往劳泽大湖]]  [[前往古老盆地]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[灵光]]:7\n\n[[人力]]:200\n\n[[计算力]]:70\n\n[[钱币]]:600\n\n[[超识]]:9\n\n[[神经材料]]:10\n\n[[零结晶]]:20\n\n[[冰冻核心]]:10\n\n[[污浊核心]]:10\n\n[[纯浊灵体]]:10\n\n[[污浊武器]]:1\n\n[[稿纸]]:30\n\n[[粗糙天文记录]]:65\n\n[[经验记录]]:10\n\n[[感悟]]:130\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "升级",
         "created": "1444111100000000",
         "creator": "Pldada",

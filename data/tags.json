@@ -65,11 +65,6 @@
         "t_furniture": true
     },
     {
-        "id": "bio",
-        "name": "生物实验",
-        "t_furniture": true
-    },
-    {
         "id": "ultraviolet_rays",
         "name": "紫外实验",
         "t_furniture": true
@@ -122,11 +117,6 @@
     {
         "id": "hq_well",
         "name": "黄泉稳流井",
-        "t_furniture": true
-    },
-    {
-        "id": "spirit_beacon",
-        "name": "灵体信标",
         "t_furniture": true
     },
     {

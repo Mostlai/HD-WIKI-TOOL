@@ -28,7 +28,7 @@ trueList = [
 './data/missions.json',
 './data/obstacles.json',
 './data/player.json',
-'./data/potions.json',
+'./data/consumables.json',
 './data/realsoul.json',
 './data/resources.json',
 './data/skills.json',
@@ -133,8 +133,8 @@ def getags(t):
         tags = '市场'
     elif t == 'player':
         tags = '玩家信息'
-    elif t == 'potions':
-        tags = '丹药'
+    elif t == 'consumables':
+        tags = '道具'
     elif t == 'realsoul':
         tags = '真魂'
     elif t == 'skills':

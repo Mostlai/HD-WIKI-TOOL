@@ -1971,6 +1971,15 @@
         "modifier": "Pldada"
     },
     {
+        "title": "漫夜平原",
+        "text": ">掉落【金粒】，【夜图】，【夜卷】，【漫夜的回忆】\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[漫夜平原]]  >=20\n\n```\n解锁需求(JSON):g.pingyuan_loc_find>=20\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "战斗类副本 副本",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
         "title": "底层梦境【黄泉前置】",
         "text": ">梦境的深处,实界的边缘,这里的时间流速更快,环境更危险\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[激活黄泉井]]  >=1\n\n```\n解锁需求(JSON):g.active_huangquan>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[荒芜边境[黄泉]]]  [[荒芜大河[黄泉]]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[测绘资料]]:2~7\n\n[[零结晶]]:2~7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "战斗类副本 副本",
@@ -7147,7 +7156,7 @@
     },
     {
         "title": "平原【天文记录】",
-        "text": ">旷野\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[粗糙天文记录]]  >=1\n\n```\n解锁需求(JSON):g.star_map>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[粗糙天文记录]]:7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">旷野\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[粗糙天文记录]]  >=1\n\n```\n解锁需求(JSON):g.star_map>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[漫夜平原]]  [[漫夜平原]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[粗糙天文记录]]:7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "探索类副本 副本",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -8083,7 +8092,7 @@
     },
     {
         "title": "里程点",
-        "text": ">\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[望天]]  [[巡天]]  [[反材料工具]]  [[冷结武器]]  [[千年升级I]]  [[千年升级II]]  [[财富I]]  [[财富II]]  [[灵感I]]  [[灵感II]]  [[空间I]]  [[空间II]]  [[人力II]]  [[计算力I]]  [[计算力II]]  [[学生]]  [[平原[天文记录]]]  [[小城镇[城边矿山前置]]]  [[神识流剑]]  [[修士袍]]  [[修士履]]  [[修士冠]]  [[修士鞶带]]  [[虚灵星图]]  [[生命工程学]]  [[反射冶炼学]]  [[进阶材料学]]  [[稿纸收购商]]  [[奥法驱动]]  [[反材料工厂]]  [[冷结武器工厂]]  [[固液变化(形态变化)]]  [[神经物质(物体结构)]]  [[低温材料性质(物体结构)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[望天]]  [[巡天]]  [[反材料工具]]  [[冷结武器]]  [[千年升级I]]  [[千年升级II]]  [[财富I]]  [[财富II]]  [[灵感I]]  [[灵感II]]  [[空间I]]  [[空间II]]  [[人力II]]  [[计算力I]]  [[计算力II]]  [[学生]]  [[平原[天文记录]]]  [[小城镇[城边矿山前置]]]  [[神识流剑]]  [[修士袍]]  [[修士履]]  [[修士冠]]  [[修士鞶带]]  [[虚灵星图]]  [[生命工程学]]  [[反射冶炼学]]  [[进阶材料学]]  [[稿纸收购商]]  [[法力托驭]]  [[反材料工厂]]  [[冷结武器工厂]]  [[固液变化(形态变化)]]  [[神经物质(物体结构)]]  [[低温材料性质(物体结构)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "玩家信息",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -8480,7 +8489,7 @@
     {
         "title": "聚合五环",
         "text": ">凝聚五环元素成衍生元素-五环点\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[元素衍生]]  >=1 与 [[元素稳定]]  >=1 与 [[元素缠合]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_space_ysys>=1 与 g.xiulian_space_yswd>=1 与 g.xiulian_space_ysch>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[元素制作]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[元素制作]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:200\n\n[[晶流水]]:50\n\n[[高温流]]:10\n\n[[纯白材料包]]:10\n\n[[锐金]]:5\n\n[[巨木]]:5\n\n[[洪水]]:5\n\n[[烈火]]:5\n\n[[厚土]]:5\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[时间]]:33\n\n[[五环点]]:3.9\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药 元素制作",
+        "tags": "道具 元素制作",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8489,7 +8498,7 @@
     {
         "title": "五环扭曲",
         "text": ">扭曲五环点成衍生不稳定元素-落日点【该配方初始成本较贵,需要建造家具或解锁升级降低成本】\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[扭曲函数]]  >=1 与[[扭曲数学]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_fc_niuquhanshu>=1 与g.xiulian_fc_niuqushuxues>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[元素制作]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[元素制作]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[奇异液体]]:10\n\n[[钱币]]:1300\n\n[[活性结晶]]:4\n\n[[零结晶]]:30\n\n[[晶流水]]:80\n\n[[高温流]]:20\n\n[[纯白材料包]]:20\n\n[[五环点]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[时间]]:33\n\n[[混乱度]]:5\n\n[[落日点]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药 元素制作",
+        "tags": "道具 元素制作",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8498,7 +8507,7 @@
     {
         "title": "矿泉水",
         "text": ">一瓶矿泉水\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=1\n\n```\n解锁需求(JSON):g.yaolixue>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:4\n\n[[烈火]]:2\n\n[[洪水]]:1\n\n[[水银花]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8507,7 +8516,7 @@
     {
         "title": "好果汁",
         "text": ">好果汁会变质吗\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=1\n\n```\n解锁需求(JSON):g.yaolixue>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:10\n\n[[烈火]]:2\n\n[[巨木]]:1\n\n[[洪水]]:1\n\n[[滴露花]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8516,7 +8525,7 @@
     {
         "title": "黄金酒",
         "text": ">金色液体\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=1\n\n```\n解锁需求(JSON):g.yaolixue>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:10\n\n[[烈火]]:2.5\n\n[[锐金]]:2\n\n[[洪水]]:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8525,7 +8534,7 @@
     {
         "title": "疗伤散",
         "text": ">一小瓶疗伤散\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=1\n\n```\n解锁需求(JSON):g.yaolixue>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[巨木]]:2.5\n\n[[洪水]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8534,7 +8543,7 @@
     {
         "title": "忘忧水",
         "text": ">一小瓶忘忧水\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=1\n\n```\n解锁需求(JSON):g.yaolixue>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[锐金]]:1\n\n[[巨木]]:2\n\n[[厚土]]:2\n\n[[洪水]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8543,7 +8552,7 @@
     {
         "title": "扩血丹",
         "text": ">短时间内提高气血上限\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=2\n\n```\n解锁需求(JSON):g.yaolixue>=2\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[锐金]]:2\n\n[[巨木]]:2\n\n[[厚土]]:2\n\n[[洪水]]:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8552,7 +8561,7 @@
     {
         "title": "🔅五环抗性丹",
         "text": ">五环抗性+70%\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=3\n\n```\n解锁需求(JSON):g.yaolixue>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[锐金]]:4\n\n[[巨木]]:4\n\n[[厚土]]:4\n\n[[洪水]]:4\n\n[[烈火]]:4\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8561,7 +8570,7 @@
     {
         "title": "🔅生生不息丹",
         "text": ">每秒恢复15气血\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=4\n\n```\n解锁需求(JSON):g.yaolixue>=4\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[锐金]]:4\n\n[[巨木]]:4\n\n[[厚土]]:4\n\n[[洪水]]:4\n\n[[烈火]]:4\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8570,7 +8579,7 @@
     {
         "title": "🔅祛混丹",
         "text": ">每秒减少1混乱度\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[药理学]]  >=5\n\n```\n解锁需求(JSON):g.yaolixue>=5\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[锐金]]:1\n\n[[巨木]]:1\n\n[[厚土]]:5\n\n[[洪水]]:1\n\n[[烈火]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8579,7 +8588,7 @@
     {
         "title": "💠生灵专注丹",
         "text": ">生灵石做成的丹药,有着极强的提神醒脑效果[专注收益提高30exp]\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[生灵药理研究]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_life_slylyj>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[生灵石]]:0.5\n\n[[锐金]]:2\n\n[[巨木]]:2\n\n[[厚土]]:2\n\n[[洪水]]:2\n\n[[烈火]]:3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -8588,7 +8597,70 @@
     {
         "title": "💠生灵万智丹",
         "text": ">生灵石做成的丹药,有着极强的提神醒脑效果[技能自然学习速度+500%]\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[生灵药理研究]]  >=1\n\n```\n解锁需求(JSON):g.xiulian_life_slylyj>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[生灵石]]:1.5\n\n[[活性结晶]]:1\n\n[[锐金]]:4\n\n[[巨木]]:4\n\n[[厚土]]:4\n\n[[洪水]]:4\n\n[[烈火]]:3\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
-        "tags": "丹药",
+        "tags": "道具",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "地契",
+        "text": ">可以增加2空间上限<span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "道具",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "狂人的思绪",
+        "text": ">我的头脑好似玻璃，思维好似光<span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "道具",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "黄昏的思绪",
+        "text": ">我在思念一些事情，大概吧<span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "道具",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "金粒",
+        "text": "><span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "道具",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "夜图",
+        "text": "><span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "道具",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "夜卷",
+        "text": "><span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "道具",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "漫夜的回忆",
+        "text": ">我知道那个夜晚，一片风中跃动的草地，自远处而来的褐色云朵，黑暗从月光中溜走，挤满了我的眼，我的嘴。无需他多言，我已知晓回去的道路。<span style='color:red'>注意。此条目在游戏中标记为隐藏资源。如果此项目标签为资源，很可能属于其对应修炼的产物，请在右侧搜索框中搜索此条目名字以查看对应修炼</span>\n\n以下修炼可获得此条目:\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "道具",
         "created": "1444111100000000",
         "creator": "Pldada",
         "modified": "1444111100000000",
@@ -9091,7 +9163,7 @@
     },
     {
         "title": "超识",
-        "text": ">集群思维\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[进阶知识]]  [[奥法驱动]]  [[体力恢复(生命构造)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[感悟]].max:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[电导神观学]]  [[近距通讯学]]  [[地质勘探学]]  [[地层开采学]]  [[反射性数学]]  [[源泉生命学]]  [[进阶材料学]]  [[高温物理学]]  [[晶髓能量学]]  [[厚土工程学]]  [[密谋学]]  [[高压运算]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[非实塔]]  [[非实波段数据]]  [[进阶测绘资料]]  [[群体政治学]]  [[近距通讯学]]  [[反射性数学]]  [[反射建筑学]]  [[反射冶炼学]]  [[幽冥流体学]]  [[高压运算]]  \n\n</fieldset>",
+        "text": ">集群思维\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[进阶知识]]  [[法力托驭]]  [[体力恢复(生命构造)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[感悟]].max:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[电导神观学]]  [[近距通讯学]]  [[地质勘探学]]  [[地层开采学]]  [[反射性数学]]  [[源泉生命学]]  [[进阶材料学]]  [[高温物理学]]  [[晶髓能量学]]  [[厚土工程学]]  [[密谋学]]  [[高压运算]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[非实塔]]  [[非实波段数据]]  [[进阶测绘资料]]  [[群体政治学]]  [[近距通讯学]]  [[反射性数学]]  [[反射建筑学]]  [[反射冶炼学]]  [[幽冥流体学]]  [[高压运算]]  \n\n</fieldset>",
         "tags": "资源",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -9208,7 +9280,7 @@
     },
     {
         "title": "钛板",
-        "text": ">具有金属光泽,有延展性,密度小,容易加工\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[地层开采学]]  >=3 与[[金属冶炼学]]  >=8\n\n```\n解锁需求(JSON):g.land_wa>=3 与g.metal_1>=8\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[奥法驱动]]  [[命玄前奏]]  [[破道之梦]]  [[落日乐曲]]  \n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[小型钛矿场]]  [[材料存储箱]]  [[材料普遍性分析(形态变化)]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[好奇号]]  [[小型钛矿场]]  [[高温熔炉[钛]]]  [[钛板指令]]  [[纯白材料指令]]  [[高压熔融]]  \n\n</fieldset>",
+        "text": ">具有金属光泽,有延展性,密度小,容易加工\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[地层开采学]]  >=3 与[[金属冶炼学]]  >=8\n\n```\n解锁需求(JSON):g.land_wa>=3 与g.metal_1>=8\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[法力托驭]]  [[命玄前奏]]  [[破道之梦]]  [[落日乐曲]]  \n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[小型钛矿场]]  [[材料存储箱]]  [[材料普遍性分析(形态变化)]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n[[好奇号]]  [[小型钛矿场]]  [[高温熔炉[钛]]]  [[钛板指令]]  [[纯白材料指令]]  [[高压熔融]]  \n\n</fieldset>",
         "tags": "资源",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -11746,7 +11818,7 @@
     },
     {
         "title": "材料应用学",
-        "text": ">运用材料的艺术\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[铁板]]  >=7\n\n```\n解锁需求(JSON):g.cu_iron>=7\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[神识流剑]]  [[修士袍]]  [[修士履]]  [[修士冠]]  [[修士鞶带]]  [[生命工程学]]  [[反射冶炼学]]  [[进阶材料学]]  [[奥法驱动]]  [[固液变化(形态变化)]]  [[神经物质(物体结构)]]  [[低温材料性质(物体结构)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下影响\n\n[[时间]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[基础建筑学]]  [[杀伤武器学]]  [[神经物质(物体结构)]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">运用材料的艺术\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[铁板]]  >=7\n\n```\n解锁需求(JSON):g.cu_iron>=7\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[神识流剑]]  [[修士袍]]  [[修士履]]  [[修士冠]]  [[修士鞶带]]  [[生命工程学]]  [[反射冶炼学]]  [[进阶材料学]]  [[法力托驭]]  [[固液变化(形态变化)]]  [[神经物质(物体结构)]]  [[低温材料性质(物体结构)]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下影响\n\n[[时间]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[基础建筑学]]  [[杀伤武器学]]  [[神经物质(物体结构)]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "技能",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -11773,7 +11845,7 @@
     },
     {
         "title": "基础能量学",
-        "text": ">通过FC切割实验,你发现了一种新的能量形式\n\n<fieldset>\n\n解锁需求:\n\n[[FC切割实验]]  >=1</fieldset>\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[蓄电池]]  [[电能]]  [[红外科学]]  [[电导神观学]]  [[晶髓能量学]]  [[FC零结晶电容]]  [[奥法驱动]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下影响\n\n[[时间]]:0.7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[感应线圈I]]  [[进阶知识]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">通过FC切割实验,你发现了一种新的能量形式\n\n<fieldset>\n\n解锁需求:\n\n[[FC切割实验]]  >=1</fieldset>\n\n\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[蓄电池]]  [[电能]]  [[红外科学]]  [[电导神观学]]  [[晶髓能量学]]  [[FC零结晶电容]]  [[法力托驭]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[技能点]]:1\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下影响\n\n[[时间]]:0.7\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n[[感应线圈I]]  [[进阶知识]]  \n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "技能",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -12440,6 +12512,15 @@
     {
         "title": "辉光凝华",
         "text": ">梦中追逐日月之息\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[☀阳照感悟]]  >=9 与 [[🌙真夜感悟]]  >=9\n\n```\n解锁需求(JSON):g.yangzhoaganuw>=9 与 g.zhenyeganwu>=9\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[体力]]:10\n\n[[归梦]]:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\n[[辉光精华]]:0.3\n\n[[时间]]:2\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "tags": "任务/动作",
+        "created": "1444111100000000",
+        "creator": "Pldada",
+        "modified": "1444111100000000",
+        "modifier": "Pldada"
+    },
+    {
+        "title": "漫夜平原",
+        "text": ">你得知了地点：漫夜平原。完成此任务解锁漫夜平原。\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[平原[天文记录]]]  >=1\n\n```\n解锁需求(JSON):g.pingyuan_loc>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  \n\n该条目属于以下条目的前置解锁\n\n[[漫夜平原]]  \n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下花费\n\n[[钱币]]:15\n\n[[粗糙天文记录]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下结果\n\nplayer.exp:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "任务/动作",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -15067,7 +15148,7 @@
     },
     {
         "title": "老马",
-        "text": ">一匹老马\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[驯马术]]  >=1\n\n```\n解锁需求(JSON):g.horse_training>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[steed]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[steed]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "text": ">一匹老马。（警告仅为了确保你看描述里的更多信息）\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[驯马术]]  >=1\n\n```\n解锁需求(JSON):g.horse_training>=1\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[steed]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[steed]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:10\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "升级 steed",
         "created": "1444111100000000",
         "creator": "Pldada",
@@ -15408,8 +15489,8 @@
         "modifier": "Pldada"
     },
     {
-        "title": "奥法驱动",
-        "text": ">利用合理和电能进行高效驱动\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[超识]]  >=3 与 [[材料应用学]]  >=6 与[[基础能量学]]  >=8 与[[钛板]]  >=3\n\n```\n解锁需求(JSON):g.super_mind>=3 与 g.metal_app>=6 与g.energ_1>=8 与g.tian>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[steed]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[steed]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:50\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
+        "title": "法力托驭",
+        "text": ">利用合理和电能进行高效驱动。（警告仅为了确保你看描述里的更多信息）\n\n<fieldset  style='margin-bottom:5px'>\n\n解锁需求:\n\n[[超识]]  >=3 与 [[材料应用学]]  >=6 与[[基础能量学]]  >=8 与[[钛板]]  >=3\n\n```\n解锁需求(JSON):g.super_mind>=3 与 g.metal_app>=6 与g.energ_1>=8 与g.tian>=3\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```\n\n</fieldset>\n\n---\n\n此条目具有以下TAG(标签)  [[steed]] \n\n同样具有此TAG的条目:\n\n<$list filter=\"[tag[steed]sort[title]]\"/>\n\n该条目属于以下条目的前置解锁\n\n\n\n<fieldset style='margin-bottom:5px'>\n\n该条目具有以下修正\n\n[[距离]]:50\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的MAX（上限）在以下条目中被影响\n\n\n\n</fieldset>\n\n<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n\n\n</fieldset>",
         "tags": "升级 steed",
         "created": "1444111100000000",
         "creator": "Pldada",

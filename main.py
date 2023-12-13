@@ -197,7 +197,7 @@ def ana_data(A):
                     kp = re.search(pattern='[\u4E00-\u9FA5A-Za-z0-9_]+', string=c)
                     prog_content = prog_content.replace(kp.group(), '[[' + kp.group() + ']]')
                     if '\n\n标签中含有此缺失条目名称的条目有以下（如果上面的解锁关系中出现非中文的条目，那么那个条目可能对应的是以下条目）:\n\n' not in prog_content:
-                        prog_content += '\n\n标签中含有此迭失条目名称的条目有以下:\n\n'
+                        prog_content += '\n\n标签中含有此缺失条目名称的条目有以下（如果上面的解锁关系中出现非中文的条目，那么那个条目可能对应的是以下条目）:\n\n'
                     prog_content += '<$list filter="[tag[' + kp.group() + ']sort[title]]"/>'+ '\n\n'
             text += prog_content
             text += '\n\n```\n解锁需求(JSON):' + item['require'] + '\n\n为什么会有此条？因为可以通过此来手动查询未显示的条目\n```' + '\n\n</fieldset>'
@@ -233,7 +233,7 @@ def ana_data(A):
                                 prog_content = prog_content.replace(i['id'], '[[' + i['id'] + ']]')
                     if no_tag == 0:
                         prog_content = prog_content.replace(op.group(), '[[' + op.group() + ']]')
-                        prog_content += '\n\n标签中含有此确实条目名称的条目有以下（如果上面的解锁关系中出现非中文的条目，那么那个条目可能对应的是以下条目）:\n\n'
+                        prog_content += '\n\n标签中含有此缺失条目名称的条目有以下（如果上面的解锁关系中出现非中文的条目，那么那个条目可能对应的是以下条目）:\n\n'
                         prog_content += '<$list filter="[tag[' + op.group() + ']sort[title]]"/>' + '\n\n'
                 text += prog_content + '</fieldset>\n\n'
 
@@ -381,11 +381,33 @@ def ana_data(A):
             if i.get('xiulianresult', '') != '':
                 if check_con in i['xiulianresult']:
                     text += '[[' + i['name'] + ']]  '
-
         text += "\n\n</fieldset>\n\n"
+
+
         text += "<fieldset style='margin-bottom:5px'>\n\n此条目的rate（速率）在以下条目中被影响\n\n"
         for i in A:
             check_con = item['id'] + '.rate'
+            if i.get('result', '') != '':
+                if check_con in i['result']:
+                    text += '[[' + i['name'] + ']]  '
+            if i.get('effect', '') != '':
+                if check_con in i['effect']:
+                    text += '[[' + i['name'] + ']]  '
+            if i.get('mod', '') != '':
+                if check_con in i['mod']:
+                    if i.get('name', '') != '':
+                        text += '[[' + i["name"] + ']]  '
+                    else:
+                        text += '[[' + i["id"] + ']]  '
+            if i.get('xiulianresult', '') != '':
+                if check_con in i['xiulianresult']:
+                    text += '[[' + i['name'] + ']]  '
+        text += '\n\n</fieldset>'
+
+
+        text += "<fieldset style='margin-bottom:5px'>\n\n此条目可以在以下条目中被获取\n\n"
+        for i in A:
+            check_con = item['id']
             if i.get('result', '') != '':
                 if check_con in i['result']:
                     text += '[[' + i['name'] + ']]  '

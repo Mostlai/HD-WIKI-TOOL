@@ -1,0 +1,50 @@
+[
+	{
+		"id":"ske_c_elysium_radiance",
+		"name":"乐土光辉",
+		"isCategory": true,
+		"factor": 1
+	},
+	{
+		"id":"ske_c_elysium_radiance_1",
+		"name":"光辉",
+		"desc":"你的体内充满了了来自至福乐土的光芒，对合理以及真水的抗性得到了提升，并对真火伤害中的一部分进行吸收。",
+		"max": 5,
+		"postion": 1,
+		"belong": "ske_c_elysium_radiance",
+		"mod":{
+			"self.resist.heli":1,
+			"self.resist.water":2
+		}
+	},
+	{
+		"id":"ske_c_elysium_radiance_2",
+		"name":"裁决",
+		"desc":"向所有敌人发起乐土裁决。\n造成你此技能等级*武器伤害/3的真火伤害，并治疗你10%伤害量的生命值。\n所有被你的裁决击中的目标都将受到光的照耀，降低此技能等级*10的全豁免，降低25%+此技能等级*5%的暴击伤害，受到的真火伤害将会对另外一个敌人产生溅射，造成20%+此技能等级*2%的伤害。\n持续10s。",
+		"max": 5,
+		"postion": 2,
+		"belong": "ske_c_elysium_radiance"
+	},
+	{
+		"id":"ske_c_elysium_radiance_3",
+		"name":"灼烧",
+		"desc":"你强大的光辉灼烧其中的目标，对一个敌人造成30+此技能等级*10的真火伤害，被这一效果影响的敌人会有8%+此技能等级*4%的几率被致盲，致盲效果持续10s。",
+		"max": 5,
+		"postion": 3,
+		"belong": "ske_c_elysium_radiance"
+	},
+	{
+		"id":"ske_c_elysium_radiance_4",
+		"name":"照明",
+		"desc":"光辉可以让任何敌人无处遁形，被此光辉笼罩的敌人，闪避值降低27+此技能等级*4，此外，你的真火伤害额外增加2%+此技能等级*2%，并且无视敌人10%+此技能等级*2%的真火抗性。",
+		"max": 5,
+		"postion": 4,
+		"belong": "ske_c_elysium_radiance"
+	},
+	{
+		"id":"ske_c_elysium_dreaming",
+		"name":"乐土幻梦",
+		"isCategory": true,
+		"factor": 1
+	}
+]

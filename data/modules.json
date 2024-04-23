@@ -52,6 +52,9 @@
 		"techo",
 		"ap_upgrade",
 		"environment",
+		"map",
+		"tile",
+		"scena",
 		"skill_extend"
 	],
 	"modules": [
